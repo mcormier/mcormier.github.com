@@ -2,37 +2,15 @@
 
 /* @group CSS Reset */
 
-* {
-	margin: 0;
-	padding: 0;
-}
+* { margin: 0; padding: 0; }
+* :link,:visited { text-decoration: none }
+* h1,h2,h3,h4,h5,h6,pre,code { font-size: 1em; }
+* a img,:link img,:visited img { border: none }
 
-* :link,:visited {
-	text-decoration: none
-}
+a { outline: none; }
 
-
-* h1,h2,h3,h4,h5,h6,pre,code {
-	font-size: 1em;
-}
-
-* a img,:link img,:visited img {
-	border: none
-}
-
-a {
-	outline: none;
-}
-
-table {
-	border-spacing: 0;
-}
-
-img {
-	vertical-align: middle;
-}
-
-
+table { border-spacing: 0; }
+img { vertical-align: middle; }
 
 /* @group Basics */
 
@@ -44,15 +22,11 @@ body {
 	margin: 1em auto;
 }
 
-a:link {
-	color: #b63;
-	text-decoration: none;
+a:link { color: #b63; text-decoration: none;
 /*	border-bottom: 1px solid #ddd;*/
 }
 
-a:visited {
-	color: #888;
-	text-decoration: none;
+a:visited { color: #888; text-decoration: none;
 	border-bottom: 1px solid #ddd;
 }
 
@@ -65,15 +39,10 @@ a:hover {
 	color: #888;
 	text-decoration: none;
 }
-
     
-hr.wide {
-  width: 100%;
-}
+hr.wide { width: 100%; }
 
-div.footer {
- height: 100px;
-}
+div.footer { height: 100px; }
 
 
 h1,h2,h3,h4,h5,h6 {
@@ -126,7 +95,7 @@ p {
 	text-align: justify;
 	line-height: 1.5em;
 	text-indent: 1em;
-	margin: 0.5em 0;
+	margin: 0.5em 0.5em;
 }
 
 ul,ol {
