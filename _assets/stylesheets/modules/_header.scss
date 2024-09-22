@@ -15,6 +15,11 @@
   font-weight: 700;
   color: $header-logo-color;
   text-decoration: none;
+  img {
+    float: left;
+    margin-right: 5px;
+    margin-top: 8px;
+  }
 }
 
 .header-links {
