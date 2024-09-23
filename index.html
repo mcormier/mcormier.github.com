@@ -13,13 +13,9 @@ description: ""
           {% include svg-icon.html icon="arrow-right" %}
         </h5>
       </a>
-      <p>
-        {% if post.description %}
-          {{ post.description }}  
-        {% else %}
-          {{ post.excerpt }}
-        {% endif %}
-      </p>
+      <div class="article-content">
+        {{ post.content }}
+      </div>
       {% include article/info-footer.html post=post %}
     </li>
   {% endfor %}

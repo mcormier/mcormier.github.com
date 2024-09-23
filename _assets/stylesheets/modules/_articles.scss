@@ -177,6 +177,17 @@
     margin-bottom: 0;
     vertical-align: middle;
   }
+  li {
+    border-bottom: none;
+    padding: 0 0;
+    display: list-item;
+  }
+  ol {
+    list-style-type: decimal;
+  }
+  ul {
+    list-style-type: disc;
+  }
 }
 
 .article-comments {
