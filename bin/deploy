@@ -5,6 +5,16 @@
 # Exit if any subcommand fails.
 set -e
 
+if [ -z "$(git status -s)" ]
+then
+  echo "No outstanding changes.  Can deploy."
+else
+  echo "Outstanding changes. Check in before publishing."
+  git status -s
+  exit 1
+fi
+
+
 echo "Started deploying"
 
 # Checkout master branch.
