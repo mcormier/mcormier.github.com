@@ -1,0 +1,16 @@
+
+{% if include.cover %}
+
+<div class="book-cover">
+
+    <img src="{% asset '{{ include.cover }}' @path %}" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="{% asset '{{ include.cover }}' @path %}"
+         data-zooming-width="{{ assets[include.cover].dimensions.width }}"
+         data-zooming-height="{{ assets[include.cover].dimensions.height }}"
+    />
+
+</div>
+
+{% endif %}

@@ -13,17 +13,7 @@
             {% include article/info-footer.html post=page %}
           </header>
 
-          <div class="book-cover">
-
-              <img src="{% asset '{{ page.cover }}' @path %}" alt="{{ include.alt }}" class="zooming"
-                   width="150px"
-
-                   data-rjs="{% asset '{{ page.cover }}' @path %}"
-                   data-zooming-width="{{ assets[page.cover].dimensions.width }}"
-                   data-zooming-height="{{ assets[page.cover].dimensions.height }}"
-              />
-
-          </div>
+          {% include article/book_cover.html cover=page.cover %}
 
           <div class="article-content">
             {{ content }}
