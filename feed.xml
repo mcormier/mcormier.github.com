@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Matt Cormier</title>
+    <description></description>
+    <link>http://www.preenandprune.com</link>
+    <atom:link href="http://www.preenandprune.com/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Rabbit Redux</title>
+        <description></description>
+        <pubDate>Mon, 07 Oct 2024 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/rabbit-redux</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/rabbit-redux</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Moby Dick</title>
+        <description></description>
+        <pubDate>Sat, 31 Aug 2024 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/moby-dick</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/moby-dick</guid>
+      </item>
+    
+      <item>
+        <title>The Ground Beneath Her Feet</title>
+        <description></description>
+        <pubDate>Wed, 01 May 2024 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/the-ground-beneath</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-ground-beneath</guid>
+      </item>
+    
+      <item>
+        <title>Gravity's Rainbow</title>
+        <description></description>
+        <pubDate>Fri, 02 Feb 2024 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/gravitys-rainbow</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/gravitys-rainbow</guid>
+      </item>
+    
+      <item>
+        <title>The Mission Song</title>
+        <description></description>
+        <pubDate>Sun, 17 Sep 2023 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/the-mission-song</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-mission-song</guid>
+      </item>
+    
+      <item>
+        <title>Antkind</title>
+        <description></description>
+        <pubDate>Thu, 20 Apr 2023 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/antkind</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/antkind</guid>
+      </item>
+    
+      <item>
+        <title>The Moor's Last Sigh</title>
+        <description></description>
+        <pubDate>Mon, 21 Nov 2022 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/the-moors-last-sight</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-moors-last-sight</guid>
+      </item>
+    
+      <item>
+        <title>The Constant Gardener</title>
+        <description></description>
+        <pubDate>Wed, 31 Aug 2022 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/the-constant-gardner</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-constant-gardner</guid>
+      </item>
+    
+      <item>
+        <title>Dhalgren</title>
+        <description></description>
+        <pubDate>Wed, 03 Aug 2022 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/dhalgren</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/dhalgren</guid>
+      </item>
+    
+      <item>
+        <title>The Corrections</title>
+        <description></description>
+        <pubDate>Fri, 08 Jul 2022 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/the-corrections</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-corrections</guid>
+      </item>
+    
   </channel>
 </rss>
