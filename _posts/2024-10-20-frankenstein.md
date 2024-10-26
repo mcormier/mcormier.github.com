@@ -1,6 +1,6 @@
 ---
 layout: bookpost
-title: "Frankenstein"
+title: "Frankenstein; or, The Modern Prometheus"
 tags: []
 cover: books/2024/frankenstein.jpg
 ---
