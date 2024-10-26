@@ -11,7 +11,7 @@ me feel like I might actually being doing something right, raising a future read
 
 I read it to my son but the vocabulary and more old-timey complex sentence structures were too much for him at his age.
 He was very patient though and lasted about the first 30 pages before exclaiming "Dad, I don't understand what is going
-on!!".  
+on!!".  Oh well, now we have a copy for when he is older.
 
 A month later I picked up the book and read it myself just in time for Halloween.  I found the structure of the book 
 most interesting.  The narration is essentially Walton -> Frankenstein -> the Monster -> Frankentein -> Walton.  A story
