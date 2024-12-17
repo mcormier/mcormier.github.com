@@ -5,35 +5,12 @@ tags: []
 cover: books/2024/thepaleking.jpg
 ---
 
-I bought this book quite a few years back, and it sat on my tsundoku shelf for a while.  I enjoyed Infinite Jest but 
-procrastinated reading this for several reasons. I had apprehension that it would not be very good considering the 
-subject is IRS tax agents.  The author took his own life during the writing of this book, so it is unfinished.  Did this
-mean that trying to write a book about IRS tax agents was a near impossible task and shouldn't have been attempted in
-the first place?  Did this task drive the author to madness?  Would I be infected by such madness if I read it?
+I bought this book quite a few years back, and it sat on my tsundoku shelf for a while.  I enjoyed Infinite Jest but procrastinated reading this for several reasons. I had apprehension that it would not be very good considering the subject is IRS tax agents.  The author took his own life during the writing of this book, so it is unfinished.  Did this mean that trying to write a book about IRS tax agents was a near impossible task and shouldn't have been attempted in the first place?  Did this task drive the author to madness?  Would I be infected by such madness if I read it?
 
-This book didn't drive me mad, but it did make me visit the optometrist. The font was so small, and I'm talking about the
-standard font size, not the ridiculously small footnote font size, that I couldn't read it with my glasses on if I was 
-laying down in bed, although sitting in a chair was fine, the different positions having different natural reading
-distances.  So as the evening wound down and I chose to read before bed, I took off my glasses and held the book 
-precariously close to my face.  I got my eyes tested and purchased my first set of progressive lenses which eliminated
-this foolish situation and allowed me to finish the book while using glasses.  I'm old, my eyes are going, I'm sure
-my ears will be next.
+This book didn't drive me mad, but it did make me visit the optometrist. The font was so small, and I'm talking about the standard font size, not the ridiculously small footnote font size, that I couldn't read it with my glasses on if I was laying down in bed, although sitting in a chair was fine, the different positions having different natural reading distances.  So as the evening wound down and I chose to read before bed, I took off my glasses and held the book precariously close to my face.  I got my eyes tested and purchased my first set of progressive lenses which eliminated this foolish situation and allowed me to finish the book while using glasses.  I'm old, my eyes are going, I'm sure my ears will be next.
 
-On the back of my used paperback, purchased for $7.50 at a local bookstore, is a price tag with "9500 KS" on the tag.  
-Some quick searching on the web leads me to believe that this could be the Myanmar Kyat, but I am not 100% convinced.  
-Mainly because I thought it could have been the Kroner and discovered that the currency code for the Swedish Kroner is
-SEK but if you are in Sweden the abbreviation is KR.  So KS could be the regional code in the language of origin, in
-which case I have no idea what "9500 KS" could mean.
+On the back of my used paperback, purchased for $7.50 at a local bookstore, is a price tag with "9500 KS" on the tag.Some quick searching on the web leads me to believe that this could be the Myanmar Kyat, but I am not 100% convinced. Mainly because I thought it could have been the Kroner and discovered that the currency code for the Swedish Kroner is SEK but if you are in Sweden the abbreviation is KR.  So KS could be the regional code in the language of origin, in which case I have no idea what "9500 KS" could mean.
 
-As for the book itself, I enjoyed it more than Infinite Jest, but I would be very cautious in recommending it to anyone
-that isn't a huge David Foster Wallace fan, mainly because there is no coherent plot.  Stuff just happens, you are shown
-many scenes by many different characters, and you are transported to a well fleshed out world, but how these scenes are
-related is a complete mystery to me.  The book is more of an experience than a story, made up of many little stories.  
-Wallace's writing seems to have progressed since Infinite Jest, things felt smoother, and although the pace was slower
-(in one part of the book I swear it takes 20-30 pages for a character to travel from the airport to the office via 
-shuttle) I was not put off by this pacing.  
+As for the book itself, I enjoyed it more than Infinite Jest, but I would be very cautious in recommending it to anyone that isn't a huge David Foster Wallace fan, mainly because there is no coherent plot.  Stuff just happens.  It is a collage of scenes. You are shown many scenes by many different characters, and you are transported to a well fleshed out world, but how these scenes are related is a complete mystery to me.  The book is more of an experience than a story, made up of many little stories.  Wallace's writing seems to have progressed since Infinite Jest, things felt smoother, and although the pace was slower (in one part of the book I swear it takes 20-30 pages for a character to travel from the airport to the office via shuttle) I was not put off by this pacing.  
 
-What would this book have been like if it had been completed?  I don't know.  Would the pacing have been different 
-because the editor would have requested changes?  I don't know.  I do know that Infinite Jest is 1000 pages long and 
-The Pale King clocks in at 570 pages.  At the pace of the story telling, my guess is that if Wallace had ever finished 
-The Pale King it also would have been 1000 pages long.
+What would this book have been like if it had been completed?  I don't know.  Would the pacing have been different because the editor would have requested changes?  I don't know.  I do know that Infinite Jest is 1000 pages long and The Pale King clocks in at 570 pages.  At the pace of the story telling, my guess is that if Wallace had ever finished The Pale King it also would have been 1000 pages long.  A review on goodreads states that Wallace's longtime editor took 1000+ pages of the unfinished manuscript and whittled it down to what was published.
