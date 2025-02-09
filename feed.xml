@@ -1,20 +1,173 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Matt Cormier</title>
+    <description></description>
+    <link>http://www.preenandprune.com</link>
+    <atom:link href="http://www.preenandprune.com/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>The Three Stigmata of Palmer Eldritch</title>
+        <description>&lt;p&gt;My second foray into the many worlds of Philip K Dick.  I did not enjoy this as much as The Man in the High Castle but that doesn’t mean it wasn’t enjoyable.  This book falls under the category of books that would very difficult to adapt for film although I’m sure a master story teller could find a way.&lt;/p&gt;
+
+&lt;p&gt;I found it dissatisfying that precognition figured so prominently in the begining of the novel but faded away in the second half.  Maybe this was intentional, that using Chew-Z made precognition not possible as the characters never left the hallucination.  Maybe Dick rewrote the story and didn’t have time to fix such a change in tone.  The book is definitely ambiguous.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Feb 2025 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/stigmata</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/stigmata</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Our Kind of Traitor</title>
+        <description>&lt;p&gt;Le Carré novels are quite often adapted for the big screen.  His older novels, circa Tinker Tailor, Soldier, Spy were novels first and became movies later.  Chapters were 30+ pages with meaty paragraphs of description.  The Honourable SchoolBoy was considered a good book but was passed up for the big screen because it considered unfilmable.  It makes me wonder if the author, with all his success at screen adapations, could avoid having the fact that his novel might become adapted to the screen effect the craft of his prose.&lt;/p&gt;
+
+&lt;p&gt;Our Kind of Traitor is Le Carré’s twenty second novel and it felt like a victim of this success.  It feels more like a novel that was written with the intention of being a movie.  At least that was my first impression of the novel.  I was not a fan of the first 200 pages which were cuts between an interrogation and past events.  I wrongly assumed that it was written this way so that it could be adapted for the screen in the same manner. So, I found the first 200 pages jarring and longed for the meaty dense prose paragraphs of the past.  Once, the scenery was set though, I did find the novel flew by.&lt;/p&gt;
+
+&lt;p&gt;This novel was adapted into a movie by Canal+, it’s currently free on Tubi if you want to watch it.  Have I told you how much I love Tubi?  And wasn’t I surprised to watch it and see how much the narrative structure was different.  A chronological narrative instead of a bifurcated interrogation.  So my theory that the book was written for the screen was really moot.&lt;/p&gt;
+
+&lt;p&gt;This book is classified as a thriller but I didn’t find it that thrilling.  The only part that gave a real punch was the end of the novel.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 23 Jan 2025 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/our-kind-of-traitor</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/our-kind-of-traitor</guid>
+      </item>
+    
+      <item>
+        <title>The Man in the High Castle</title>
+        <description>&lt;p&gt;Ubik has been on my want to read list for a while now, as I’ve heard it is quite the experience.  Frankly, anything by Philip K. Dick has been on my radar for a while now.  I’ve been keeping my eye out at the local used book store for several years now but couldn’t find Dick.  Eventually I decided to buy new. I ordered the entire Library of America collection of his novels.  The collection consists of 3 hardcover books that contain what is considered his best 13 novels out of his full 44 novel bibliography.  At $80 for the collection that squares out to about $6 a novel.&lt;/p&gt;
+
+&lt;p&gt;This is the second time I’ve encountered a Library of America publication.  I picked up the complete novels of Hammett for $1 at a used book sale several years back.  One of the criticisms of this issue in the Amazon comments section was that the pages were thin.  This made me hesitate when making my purchase decision.  I don’t know the techical terms of what type of paper is used, how many grams it weighs, etc, but my best description of the paper is that is similar to bible or dictionary paper.  Is it lesser quality?  I don’t know, but it has a pleasant side-effect.  It makes each volume thinner and lighter.  This makes the reading experience more enjoyable as you are not struggling with a big heavy book.  The first of the three hard covers is over 800 pages (4 novels) and only about an inch thick.&lt;/p&gt;
+
+&lt;p&gt;Now I want to read Ubik so why have I read “The Man in the High Castle”?  Well I like to read an author’s novels in the order they were published, when possible, to see their natural progression as a writer.  I hope to get to Ubik by the end of the year.&lt;/p&gt;
+
+&lt;p&gt;You may or may not be aware that “The Man in the High Castle” is a four season series on Amazon Prime.  Before starting this book I had watched some of that series (I made it half way through season two).  Watching this much of the series did not spoil the book in the slightest.  The divergences from the original source material are so great that they almost feel like two different stories that occur in the same world. In the TV series there is no book but a series of secret video tapes.  I can see why they did this, as a book in a book makes sense.  When the medium changes to video it makes sense to make the distributed medium also video.  In both the TV series and novel the effect is the same, although it felt more effective in the novel.  You are reading a book about an alternate history.  The characters in the book are reading a book about an alternate history similar to your history.  This amplifies your empathy and puts your mind more in the alternate history being depicted.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 07 Jan 2025 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/the-man-in-the-high-castle</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-man-in-the-high-castle</guid>
+      </item>
+    
+      <item>
+        <title>The Path to the Spiders' Nest</title>
+        <description>&lt;p&gt;During a summer trip, on a rainy day in PEI, we visited a bookstore in Charlottetown where I purchased this book.  The bookstore looked like a used book store but most of the books were new.  The proprietor had good taste in books.  It is rare that I encounter any Italo Calvino in a store and was happy to pick up this book. One thing struck out to me later that I didn’t notice during my purchase.  The price of $22.99 was written in pencil inside the book.  This is what most used book stores do.  However the original cover price had been hidden with a black marker.  During reading I noticed there was black marker over the original cover price, and rubbed it off to see that the cover price was $17.99.&lt;/p&gt;
+
+&lt;p&gt;The book was published in 2001, and I purchased it in the summer of 2024 so I was not upset to be charged more than the cover price.  The price of books has definitely gone up in 23 years.  The person working there was an elderly woman with an old toy dog in the store, I assumed that she was the owner. I purchased this and Frankenstein, and she said “thank you” when I made my purchase.  Most places, when you buy something, the clerk doesn’t say “thank you”.  I read a lot in to that “thank you”, which may or may not be true.  That book stores have it rough these days with internet shopping and e-readers.  It definitely felt like a sad “thank you”, of an older woman that wished she could retire but works long hours at her bookstore.&lt;/p&gt;
+
+&lt;p&gt;What’s most interesting about this book is that Calvino disowned it after writing it.  Prevented it from being published, then eventually revised it before allowing to be published again.  To that end he discuses this in a 30 page preface before the start of the book.  Which is a long preface considering the length of the book.  I like to read books in chronlolgical order that an author has written them to see progression.  This makes this edition a strange book.  As this is Calivo’s first book but he revised it 20 years later after he became a more seasoned writer.&lt;/p&gt;
+
+&lt;p&gt;The book takes place in Italy during World War II, and follows Italian partisans fighting the Nazis from the mountains.  Calvino himself fought as a partisan.  The main character is Pin, a child that gets no childhood due to the war.  Most of the story is through the viewpoint of Pin however it later shifts to other characters briefly.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 28 Dec 2024 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/the-path-to-the-spiderrs-nests</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-path-to-the-spiderrs-nests</guid>
+      </item>
+    
+      <item>
+        <title>The Pale King</title>
+        <description>&lt;p&gt;I bought this book quite a few years back, and it sat on my tsundoku shelf for a while.  I enjoyed Infinite Jest but procrastinated reading this for several reasons. I had apprehension that it would not be very good considering the subject is IRS tax agents.  The author took his own life during the writing of this book, so it is unfinished.  Did this mean that trying to write a book about IRS tax agents was a near impossible task and shouldn’t have been attempted in the first place?  Did this task drive the author to madness?  Would I be infected by such madness if I read it?&lt;/p&gt;
+
+&lt;p&gt;This book didn’t drive me mad, but it did make me visit the optometrist. The font was so small, and I’m talking about the standard font size, not the ridiculously small footnote font size, that I couldn’t read it with my glasses on if I was laying down in bed, although sitting in a chair was fine, the different positions having different natural reading distances.  So as the evening wound down and I chose to read before bed, I took off my glasses and held the book precariously close to my face.  I got my eyes tested and purchased my first set of progressive lenses which eliminated this foolish situation and allowed me to finish the book while using glasses.  I’m old, my eyes are going, I’m sure my ears will be next.&lt;/p&gt;
+
+&lt;p&gt;On the back of my used paperback, purchased for $7.50 at a local bookstore, is a price tag with “9500 KS” on the tag.Some quick searching on the web leads me to believe that this could be the Myanmar Kyat, but I am not 100% convinced. Mainly because I thought it could have been the Kroner and discovered that the currency code for the Swedish Kroner is SEK but if you are in Sweden the abbreviation is KR.  So KS could be the regional code in the language of origin, in which case I have no idea what “9500 KS” could mean.&lt;/p&gt;
+
+&lt;p&gt;As for the book itself, I enjoyed it more than Infinite Jest, but I would be very cautious in recommending it to anyone that isn’t a huge David Foster Wallace fan, mainly because there is no coherent plot.  Stuff just happens.  It is a collage of scenes. You are shown many scenes by many different characters, and you are transported to a well fleshed out world, but how these scenes are related is a complete mystery to me.  The book is more of an experience than a story, made up of many little stories.  Wallace’s writing seems to have progressed since Infinite Jest, things felt smoother, and although the pace was slower (in one part of the book I swear it takes 20-30 pages for a character to travel from the airport to the office via shuttle) I was not put off by this pacing.&lt;/p&gt;
+
+&lt;p&gt;What would this book have been like if it had been completed?  I don’t know.  Would the pacing have been different because the editor would have requested changes?  I don’t know.  I do know that Infinite Jest is 1000 pages long and The Pale King clocks in at 570 pages.  At the pace of the story telling, my guess is that if Wallace had ever finished The Pale King it also would have been 1000 pages long.  A review on goodreads states that Wallace’s longtime editor took 1000+ pages of the unfinished manuscript and whittled it down to what was published.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Dec 2024 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/the-pale-king</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-pale-king</guid>
+      </item>
+    
+      <item>
+        <title>The Hobbit</title>
+        <description>&lt;p&gt;After the failure to read Frankenstein to my son, making his eyes roll into the back of his head, we switched to The Hobbit.&lt;br /&gt;
+As Frankenstein was such a failure I searched on the line for lists of the best children’s books.  The Hobbit came up
+frequently in the top 10. Life is too short to read bad books.  Frankenstein wasn’t a bad book, it just wasn’t a good
+children’s book.  I had read The Hobbit decades ago but didn’t realize how masterful Tolkein’s prose was.  All the 
+dwarves arriving at Bilbo’s house did draw my son into the story early, and even sections that I thought would bore him
+kept his attention. May your beard never grow thin.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 Nov 2024 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/the-hobbit</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-hobbit</guid>
+      </item>
+    
+      <item>
+        <title>Frankenstein; or, The Modern Prometheus</title>
+        <description>&lt;p&gt;During vacation this summer we visited a used bookstore in PEI.  My son found Frankenstein and asked if I could read it
+to him.  This melted my heart, the fact that my son picked a book with no pictures and wanted me to read it to him made
+me feel like I might actually being doing something right, raising a future reader.&lt;/p&gt;
+
+&lt;p&gt;I read it to my son but the vocabulary and more old-timey complex sentence structures were too much for him at his age.
+He was very patient though and lasted about the first 30 pages before exclaiming “Dad, I don’t understand what is going
+on!!”.  Oh well, now we have a copy for when he is older.&lt;/p&gt;
+
+&lt;p&gt;A month later I picked up the book and read it myself just in time for Halloween.  I found the structure of the book 
+most interesting.  The narration is essentially Walton -&amp;gt; Frankenstein -&amp;gt; the Monster -&amp;gt; Frankentein -&amp;gt; Walton.  A story
+within a story within a story, or a valley that you climb down and then climb out of.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Oct 2024 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/frankenstein</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/frankenstein</guid>
+      </item>
+    
+      <item>
+        <title>Rabbit Redux</title>
+        <description>&lt;p&gt;I had been looking for some used John Updike for a while but nothing ever turned up until I found an omnibus edition
+at a book fair, a fund-raiser for women in music.  The edition contained the first three Rabbit novels, “Rabbit, Run”, 
+“Rabbit Redux”, and “Rabbit is Rich”.  The price was nice too, one dollar fifty.  The price was actually $3, but it was
+the second day of the book fair and what ever was left was marked down to 50% off.&lt;/p&gt;
+
+&lt;p&gt;What a find, you might say.  But this edition had been abused by its previous owner.  Someone had read the first novel
+and then set the book down face up in between books one and two.  This created a distinct crease down the spine and
+stressed the internal page bindings.  To keep the book from falling apart I put duct tape on the spine.  I attempted to
+mend the internals to no avail, the sections slowly came apart as I read.&lt;/p&gt;
+
+&lt;p&gt;I did not enjoy reading “Rabbit, Run”.  I enjoyed reading Updikes prose, but the actions that Rabbit took and the book
+ending did not leave me wanting to read the sequels.  So I definitely procrastinated reading “Rabbit Redux”.  However, 
+I did enjoy Redux much more that Run.  This might have been the format.  In Run, Rabbit is the agent of his destiny
+no matter how cringe worthy that becomes.  In Redux, things seems to instead happen to Rabbit, and he just lets them 
+happen.  In both books you are essentially watching a train wreck but the perspective of Redux makes it a little more
+enjoyable ride.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Oct 2024 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/rabbit-redux</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/rabbit-redux</guid>
+      </item>
+    
+      <item>
+        <title>Moby Dick</title>
+        <description>&lt;p&gt;I purchased a used copy of Moby Dick and saved it for my summer read some time ago.  This summer I tackled the behemoth.
+Originally published in 1851 (175 years ago), the language is definitely different but not that difficult to read.&lt;/p&gt;
+
+&lt;p&gt;The structure of the book, very short chapters, makes it an enjoyable read.  I went into this book expecting a simple
+narrative structure and was surprised that half of the chapters were detailed accounts on how whaling was
+performed back in the day.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Aug 2024 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/moby-dick</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/moby-dick</guid>
+      </item>
+    
+      <item>
+        <title>The Ground Beneath Her Feet</title>
+        <description>&lt;p&gt;Purchased used from thrift books. My copy had a price sticker with “L-21000” on it. Twenty-one thousand Lira? 200 pages 
+into the book I found a faded receipt from the year 2000. The book was first purchased from a bookstore in the airport 
+in Milan for 21000 Lira before the Euro was introduced in Italy.&lt;/p&gt;
+
+&lt;p&gt;I’m assuming the original owner never finished the book, considering the location of the receipt, that they were most 
+likely using as a bookmark. I did finish the book, but it was a slog.&lt;/p&gt;
+
+&lt;p&gt;Clocking in at 635 pages this is Rushdie’s longest book. I read that after the critical reception of this book, he 
+expressed regret at the form and vowed never to write a book so long again, which he stuck to.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 May 2024 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/the-ground-beneath</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-ground-beneath</guid>
+      </item>
+    
   </channel>
 </rss>
