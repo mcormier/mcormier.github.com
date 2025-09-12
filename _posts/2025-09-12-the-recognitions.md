@@ -14,4 +14,5 @@ Half way through reading this I found out about www.williamgaddis.org which made
 Would I recommend this novel to others?  Yes, but I'd hesitate to make the recommendation as most people I know are my age and busy, and recommending a 1K pager might be take the wrong way.  No everyone loves large book stockholm syndome.
 
 I like big books and I cannot lie,
+
 You other brothers can't deny ...
