@@ -11,7 +11,7 @@ The Recognitions was first published in 1955 and comes in just under 1000 pages.
 
 Half way through reading this I found out about www.williamgaddis.org which made reading the book much easier.  The Recognitions is encyclopedic in nature with many different characters.  With these types of novels you aren't expected to get everything the first time, unless you're sharp as a tack.  Just read and enjoy and maybe come back to it in a decade if you feel like reading it again.
 
-Would I recommend this novel to others?  Yes, but I'd hesitate to make the recommendation as most people I know are my age and busy, and recommending a 1K pager might be take the wrong way.  No everyone loves large book stockholm syndome.
+Would I recommend this novel to others?  Yes, but I'd hesitate to make the recommendation as most people I know are my age, busy, and recommending a 1K pager might be take the wrong way;  not everyone enjoyes large book stockholm syndome.
 
 I like big books and I cannot lie,
 
