@@ -1,33 +1,1535 @@
----
-layout: default
-title:
-description: ""
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <title>Matt Cormier</title>
+  
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<ul class="article-list">
-  {% for post in paginator.posts %}
-    <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.preenandprune.com/">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="Matt Cormier">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://www.preenandprune.com/">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+
+  
+<!--    <meta property="og:image" content="http://www.preenandprune.com/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">-->
+<!--    <meta name="twitter:image" content="http://www.preenandprune.com/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">-->
+<!--   endif %}-->
+
+  <link href="http://www.preenandprune.com/feed.xml" type="application/rss+xml" rel="alternate" title="Matt Cormier Last 10 blog posts" />
+
+  
+
+  
+
+    
+      <link rel="icon" type="image/x-icon" href="/assets/favicon-light-678e6a51eab09452f293fabfae584caae8beef07dc1854b78157737c4e98c116.ico">
+      <link rel="apple-touch-icon" href="/assets/apple-touch-icon-light-e66630282948a2355a2c4dfcd988beb9461df00f699845c9ded5ce8089e42016.png">
+      <link rel="stylesheet" type="text/css" href="/assets/light-aa04cf7adaea725c62058c79ebc41622d05cbc89e149b6a14bf489cf984ff5cd.css">
+    
+
+  
+
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav ">
+  <a href="/"  class="header-logo" title="Matt Cormier">
+    <img src="/assets/tree-2ca013e09f27dc2ccff1195806f60e992453db79bab10b66009a7639257869a1.png" height="36px" alt="Bonsai Tree" />
+    Matt Cormier
+  </a>
+  <ul class="header-links">
+    
+      <li>
+        <a href="/about" title="About me">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-about">
+  <use href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about" xlink:href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+      <li>
+        <a href="https://github.com/mcormier" rel="noreferrer noopener" target="_blank" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="https://www.linkedin.com/in/mjcormier" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-linkedin">
+  <use href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="mailto:mcormier@preenandprune.com" title="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-email">
+  <use href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email" xlink:href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="/feed.xml" rel="noreferrer noopener" target="_blank" title="RSS">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-rss">
+  <use href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss" xlink:href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+  </ul>
+</nav>
+
+
+
+        <ul class="article-list">
+  
+    <li class="article-list-item ">
+      <a href="/posts/the-recognitions" title="The Recognitions">
         <h5>
-          {{ post.title }}
-          {% include svg-icon.html icon="arrow-right" %}
+          The Recognitions
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
         </h5>
       </a>
-      {% include article/book_cover.html cover=post.cover %}
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2025/therecognitions-334d542f93a4b2c28881ec307d4547c127b7e4dbe82e70f3ccda8e2fa86a8d98.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2025/therecognitions-334d542f93a4b2c28881ec307d4547c127b7e4dbe82e70f3ccda8e2fa86a8d98.jpg"
+         data-zooming-width="310"
+         data-zooming-height="475"
+    />
+
+</div>
+
+
       <div class="article-content">
-        {{ post.content }}
+        <p>I recently read a funny forum post about large book stockholm syndrome.  That is, when reading a large book,  you love that book because it is large and that you stuck through and finished the book.  You are more likely to rate the book higher because of your sense of accomplishment and not on the merits of the book itself.  So take what I say with a grain of salt I guess.</p>
+
+<p>The Recognitions was first published in 1955 and comes in just under 1000 pages.  It was also Gaddis’ first novel which is a gutsy move for a first time novelist. Although maybe it wasn’t as gutsy in 55 as it would be today.  I first encountered Gaddis with one of his later books, “A Frolic of His Own”.  He has definitely created his own style.  He doesn’t tell you who’s speaking most of the time and you have to figure it out for yourself by the order of the conversation or the style of the speaker.  Frolic is near 100 percent dialog so I was pleased to see some great descriptive paragraphs.</p>
+
+<p>Half way through reading this I found out about www.williamgaddis.org which made reading the book much easier.  The Recognitions is encyclopedic in nature with many different characters.  With these types of novels you aren’t expected to get everything the first time, unless you’re sharp as a tack.  Just read and enjoy and maybe come back to it in a decade if you feel like reading it again.</p>
+
+<p>Would I recommend this novel to others?  Yes, but I’d hesitate to make the recommendation as most people I know are my age, busy, and recommending a 1K pager might be take the wrong way;  not everyone enjoyes large book stockholm syndome.</p>
+
+<p>I like big books and I cannot lie,</p>
+
+<p>You other brothers can’t deny …</p>
+
       </div>
-      {% include article/info-footer.html post=post %}
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    September 12, 2025
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
     </li>
-  {% endfor %}
-  {% if paginator.total_pages > 1 %}
-    <li class="article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} Older posts</a>
-      {% endif %}
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="article-pagination-right">Newer posts {% include svg-icon.html icon="arrow-right" %}</a>
-      {% endif %}
+  
+    <li class="article-list-item ">
+      <a href="/posts/stereo-update" title="Stereo Update - Wiim Pro Plus">
+        <h5>
+          Stereo Update - Wiim Pro Plus
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+      <div class="article-content">
+        <p>I recently purchased the Wiim Pro Plus, but to talk about it I first need to talk a little bit about the Sonos Port, it is what I have upgraded from and it is what I am comparing to.  Both devices are audio streamers and are roughly in the same price point, although the Port at $550 CA is $250 more than the Wiim Pro Plus.</p>
+
+<p><img src="/assets/images/stereoUpdate/wiim_plus_in_the_box.jpg" alt="Wiim box contents" /></p>
+
+<p>Why did I buy the Port 3 years ago?  Because the Wiim Pro Plus hadn’t been released yet.  At the time, the choice for an affordable streamer was between the Sonos Port and the Bluesound Node.  The Bluesound Node at $800 was more than I was willing to pay. I just wasn’t willing to spend that much cash on a streamer, I had bad experiences with Airport Express units cutting out, and I was listening to everything primarily on vinyl.</p>
+
+<p>The Bluesound supports up to 24bit/192kHz while the Sonos Port supports 16bit/48kHz.  Because the Port has a coaxial out I thought that I could hook it up to an external DAC and get better quality but the digital out is limited to 16bit/44.1KHz so using an external DAC can be worse quality.</p>
+
+<p>So I saved money and lived with this 16bit/48kHz limitation for three years.  I became accustomed to listening to streaming music upstairs instead of vinyl.  Cueing up a record is less fun when you are walking through an obstacle course of toys.  Streaming music is also more budget friendly than buying hard media although I haven’t completely stopped buying records.</p>
+
+<p>But I was never fully satisfied with the sound of the Sonos Port.  I knew that it was limited to 16bit/48kHz and Tidal Max and Apple Lossless and High Res Lossless have 24bit with higher kHz frequencies. My audio-nervosa was gnawing at me, I wanted better quality sound.  But it wasn’t true audio-nervosa, at higher volumes I could hear a distortion or harshness to the sound.  I highly suspected the Sonos Port was the cause of it. My amplifier is brqnd new and records did not exhibit the same sound signature.</p>
+
+<p>I found out about the Wiim Pro Plus in the vogue manner, by asking ChatGPT a simple question. “What devices are similar to the Sonos Port with better sound quality?” And then peppered it with more questions until I was convinced it was a great replacement for the Sonos Port.  I made sure to search the interwebs to validate ChatGPT’s info to avoid the possibility of having a mutual hallucination with an AI chat program.</p>
+
+<p>The Wiim Pro Plus sells for $320 CA on Amazon.  I checked my local audio dealer and it was the same price so I drove down and bought local.  As luck would have it my local store was selling it for $300 and not $320.  The dealer had lots of praise for the Wiim device (the parametic equalizer that can be customized by input source was a biggie) and not much good to say about Sonos (it’s out of date hardware that should be updated).  Sonos had a huge debacle when they upgraded their software app last summer, they redesigned the interface and introduced some horrible bugs.  One of them was playlists, he had 300 playlists and lost them all, so was burned badly by an “innocuous” software update..</p>
+
+<p>I did not A/B test the devices because I use a pricey RCA cable and don’t have two to run the devices in parallel. Hopefully new purchasing bias has not clouded my ears.  It was easy to test, on the Port if I turned the volume on the amp up to 45 range I would hear the harshness/mild distortion.  I would turn the volume down to 40 most of the time as this was the best listening volume where the harshness wasn’t as prominent. There is no harshness on the Wiim at the any volume level that I could find.  I don’t turn it past 45 because the stereo is just loud enough.  This is a great feeling, setting the volume to what makes sense and not comprimising on the sound due to harshness/distortion.</p>
+
+<p>One of the nice features in the Wiim software is that it tells you what bit rate and frequency the song is streaming at.  This is enlightening as Tidal max could be many combinations of encodings.  It’s like a manumatic car, an automatic car that lets you change gears manually and see the current gear when in automatic mode. You can’t change the encoding level but this extra information gives an added sense of control. This is helpful when there are multiple versions of an album with different encodings which can happen occasionally.   Sleater-Kinney is a good example, they have a High (16bit/44.1kHz) version and a Max (24bit/96kHz) of most of their albums.</p>
+
+<p><a href="/assets/stereoUpdate/Sleater@2x-66dc98c1f98b811598330acae8ce806cf98446c75333ebe404205ab136528f5b.png">
+  <img src="/assets/stereoUpdate/Sleater-1cafe418aa2e41a638a2ebf9452454079efc1b118ae961d1ec9a2d0b936412d9.png" alt="Wiim Mobile App" class="zooming" data-rjs="/assets/stereoUpdate/Sleater@2x-66dc98c1f98b811598330acae8ce806cf98446c75333ebe404205ab136528f5b.png" data-zooming-width="1170" data-zooming-height="2532" />
+</a></p>
+
+<p>My favourite feature of the Wiim Pro Plus is the remote.  It’s not an expensive remote, what do you expect for a $300 device, it’s very light plastic but it serves a vital purpose.  One of my gripes on using the Sonos device was that it was completely controlled by my phone.  What would happen to me is that I would sit down in front of the stereo and cue some music up, but since I had my phone in front of my face I would then check the news, and faceplant, and before I knew it an hour went by and I wasn’t really listening to the music.  The remote has 4 preset buttons and you can set these to: a custom playlist, album, or radio station.  For me this is groundbreaking.  It means I can start my music listening session without looking at my phone and can skip tracks on an album without looking at my phone. This lends itself to more quality listening sessions.  Currently I have the presets set to 3 different albums and plan to swap out the albums occasionally.  The 4th preset is for my son so that he can listen to his favourite playlist of songs without asking me to cue it up for him.</p>
+
+<p><img src="/assets/images/stereoUpdate/remote.webp" alt="Wiim remote" /></p>
+
+<p>There are some things that the Sonos Port can do that the Wiim cannot.  The Port will natively stream Bandcamp and Apple Music and the Wiim cannot. The Wiim Pro Plus does do AirPlay 2 as a substitute but it’s better to get the device to stream direct from the server.  AirPlay 2 means it will rely on your phone as an intermediary.  If you get a phone call the streaming will be effected, it drains your phone battery, etc.  I would recommend using Tidal or Qobuz with a Wiim.  This may not be practical for people that are locked into yearly Apple Music contracts or packaged Apple One deals.</p>
+
+<p>Like the preset buttons, another nice touch with the Wiim is favouriting albums.  If you click the heart button in Wiim app the album is directly favourited on your Tidal account.  This is not how Sonos works.  In Sonos I would have to switch back and forth between the Sonos and Tidal apps so that I could favourite an album.</p>
+
+<p>There are many features in the Wiim that I have not covered.  It has an analog and optical input so you can use it as a switch.  I have not tried, but I could easily hook up the optical out of my Sony CD player to the Wiim and use it as an intermediary DAC.  It also has voice control which Amazon Alexa and Google Cast.  Two services that I don’t use but I can imagine will be selling features for some.</p>
+
+<p>In conclusion the Sonos Port has a worse DAC and worse audio quality than the Wiim but may appeal to some as it works well with Apple Music and is more affordable than a Bluesound node.  The Wiim is crystal clear and a great value for the price if you are not completely in the Apple Music ecosystem.</p>
+
+<p>Here is a tech spec summary:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Device</th>
+      <th>Price</th>
+      <th>DAC</th>
+      <th>Max Bit Rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sonos Port</td>
+      <td>$550</td>
+      <td>Burr-Brown PCM5102</td>
+      <td>16bit/48kHz</td>
+    </tr>
+    <tr>
+      <td>Wiim Pro Plus</td>
+      <td>$300</td>
+      <td>AKM 4493SEQ</td>
+      <td>24bit/192kHz</td>
+    </tr>
+    <tr>
+      <td>Bluesound Node</td>
+      <td>$800</td>
+      <td>Sabre ES9018K2M</td>
+      <td>24bit/192kHz</td>
+    </tr>
+  </tbody>
+</table>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    August 16, 2025
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
     </li>
-  {% endif %}
+  
+    <li class="article-list-item ">
+      <a href="/posts/slow-learner" title="Slow Learner">
+        <h5>
+          Slow Learner
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2025/slowlearner-c162f797d7f2ce7f6415844c9c6691d36a38bc0604cfbacfa97df14391465088.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2025/slowlearner-c162f797d7f2ce7f6415844c9c6691d36a38bc0604cfbacfa97df14391465088.jpg"
+         data-zooming-width="310"
+         data-zooming-height="475"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>I have a goal to read one Pynchon novel a year, and for the last few years I’ve been rereading each novel in published order.  This year was Vineland and next year I plan to reread Mason &amp; Dixon.  Everything has been thrown for a loop as a new novel “Shadow Ticket” is expected to be published this October. With Vineland, Slow Learner, and now Shadow Ticket my regular one Pynchon novel a year routine has unexpectedly possibly become a three Pynchon novel year.</p>
+
+<p>I’m not a big fan of short stories but decided to buy and read Slow Learner this year so that I could have that completist badge under my belt for Pynchon.  Slow Learner contains five short stories and it was interesting to read them and see the author’s style develop.  I felt that Pynchon had found his voice by the third story.  The introduction was also interesting, most notable the author admitting to using a thesaurus improperly and his embarassment of the use of the word “tentacles”.</p>
+
+<p>I read this while on vacation, at the cottage, and although I haven’t been a fan of short stories in the past, I found it fit well with all the leisure activities that go with vacation.  Maybe I’ll plan some Borges for next summer.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    July 12, 2025
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/my-life" title="My Life">
+        <h5>
+          My Life
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2025/bill-53bee40831b3407d43d553008b894a9bed56b7ce53bbf73cb2c6974286607af8.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2025/bill-53bee40831b3407d43d553008b894a9bed56b7ce53bbf73cb2c6974286607af8.jpg"
+         data-zooming-width="325"
+         data-zooming-height="500"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>It took me twenty months to finish this book.  It was the definition of a slog for me.  Obviously I read other books during this time.  Between novels I would make myself read another 50 pages to get through it, but sometimes I would just pick up another piece of fiction after 20 pages.  I’ve read Mulroney and Obama’s 1000 page tomes and they were a breeze and interesting compared to this monstrosity.</p>
+
+<p>The most interesting part of this was him admitting to prank calling a brothel with his compatriots; the head Madame getting angry that they were tying up the line.  Most of it is quite dull. It reads like a fluffed up name dropping rework of a reread of his agenda book.</p>
+
+<p>Not being American, and this being a bit before my time, the domestic policy stuff was not interesting to me.  How Ross Perot and Ralph Nader effected elections was interesting though, and some of the intricacies of the Israel/Palestine peace negotiations near the end of the book.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    June 9, 2025
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/rabbit-is-rich" title="Rabbit is Rich">
+        <h5>
+          Rabbit is Rich
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2024/rabbits-a5ca23f392cc768abb50bb16b042efd3000f4cc52a939032ed8cc5de5770b0b7.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2024/rabbits-a5ca23f392cc768abb50bb16b042efd3000f4cc52a939032ed8cc5de5770b0b7.jpg"
+         data-zooming-width="375"
+         data-zooming-height="500"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>I’ll never hear about Consumer Reports now without thinking about this book.  The third in a series, Rabbit is Rich won the Pulitzer in 1982.  The first and second in the series are like watching a trainwreck. An emotional trainwreck constructed from the flawed nature of humanity.  This book is not such a trainwreck, although Rabbit’s son Nelson does play the surrogate for the cringe role, it is more distant as it is not happening directly to Rabbit.</p>
+
+<p>Each book in this series was published 10 years apart, 1960, 1970 and now 1980.  The author has aged and the character has aged the same amount of time.  I can only imagine what reading this during publishing was like.  I think that’s what makes this series so good. That there was temporal distance between the sequels.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    May 5, 2025
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/electric-sheep" title="Do Androids Dream of Electric Sheep?">
+        <h5>
+          Do Androids Dream of Electric Sheep?
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2025/dick-1b105e46c909cff3d4cd1de90eff03faf96a0cc8a30f72376d72cfce383d7964.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2025/dick-1b105e46c909cff3d4cd1de90eff03faf96a0cc8a30f72376d72cfce383d7964.jpg"
+         data-zooming-width="210"
+         data-zooming-height="331"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>This was an interesting read considering how famous the movie BladeRunner is.  Things I learned while reading the book.  The term bladerunner is not used in the book, it is an invention of the movie.  The term replicant was also invented for the movie.  Ridley Scott explains why they chose not to use the term android in the director’s commentary of the film but the explanation was not that clear to me.</p>
+
+<p>The book is bleaker than the movie, if you can believe that.  People live in a world where animals are scarce, rare and valuable.  There is also an entire industry of fake animals.  Deckard also has a wife in the novel which puts doubt into the question on whether he is an android or not.  Although the scene where an android asks Deckard if he’s ever taken the test on himself is in the book.  Ridley Scott states in the director’s commentary that in the movie Deckard is supposed to be an Android, this of course conflicts with BladeRunner 2049 since Harrison Ford has aged, and I don’t think Androids are supposed to age.</p>
+
+<p>My favourite part was the section where there is another police department that Deckard doesn’t know about that is being run by Androids.  Or is it the other way around? Deckard is working at a secret android police station and he is an android.  This is the beauty of PKD’s writing, he creates ambiguity that keeps you guessing.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 22, 2025
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/vineland" title="Vineland">
+        <h5>
+          Vineland
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2025/vineland-67b61663dd2fd58297feed8a130a21930d62f25926da55724250a255304474a5.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2025/vineland-67b61663dd2fd58297feed8a130a21930d62f25926da55724250a255304474a5.jpg"
+         data-zooming-width="446"
+         data-zooming-height="700"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>Reading this novel was part of an ongoing project of reading one Pynchon novel a year in chronological order of publication.  Last year was Gravity’s Rainbow and hear we are a year later reading Vineland.  This is my second read of Vineland, but I didn’t remember any of the book except Zoyd crashing through the window at the beginning of the book, so it felt like a first reading.  Maybe I was a Thanatoid when I read it, with an attention span of a gnat, and I have returned to the land of the living.</p>
+
+<p>Pynchon’s prose can be so dense at times that it is easy to miss something if your attention wanders.  General advice is to push through, as you will not get everything on a first go, repeated reads can be enlightening though.  I found Vineland a lot of fun.  It has less characters than Gravity’s Rainbow so the only thing you needed to do is watch out for narrative shifts.</p>
+
+<p>Depending on the age of the reader, this book may not be as fun to read for a younger reader as it makes so many television(tubal) references that would take research to understand.</p>
+
+<p>I did find the book took a while to get used to the Pynchon style again but I hit a reading stride around page 200 onwards.  Pynchon’s long sentences are really poetry presented as prose at times, and in the right of state of mind reading feels like sailing.  This is why I keep coming back to Pynchon, as I have not encountered anything similar in any author.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 8, 2025
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/stigmata" title="The Three Stigmata of Palmer Eldritch">
+        <h5>
+          The Three Stigmata of Palmer Eldritch
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2025/dick-1b105e46c909cff3d4cd1de90eff03faf96a0cc8a30f72376d72cfce383d7964.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2025/dick-1b105e46c909cff3d4cd1de90eff03faf96a0cc8a30f72376d72cfce383d7964.jpg"
+         data-zooming-width="210"
+         data-zooming-height="331"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>My second foray into the many worlds of Philip K Dick.  I did not enjoy this as much as The Man in the High Castle but that doesn’t mean it wasn’t enjoyable.  This book falls under the category of books that would be very difficult to adapt for film although I’m sure a master story teller could find a way.</p>
+
+<p>I found it dissatisfying that precognition figured so prominently in the begining of the novel but faded away in the second half.  Maybe this was intentional, that using Chew-Z made precognition not possible as the characters never left the hallucination.  Maybe Dick rewrote the story and didn’t have time to fix such a change in tone.  The book is definitely ambiguous.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    February 1, 2025
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/our-kind-of-traitor" title="Our Kind of Traitor">
+        <h5>
+          Our Kind of Traitor
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2025/traitor-60813f41ff990b832a03d30ecff539e425d4a7ca6ff9937d20f5488eef15e6c2.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2025/traitor-60813f41ff990b832a03d30ecff539e425d4a7ca6ff9937d20f5488eef15e6c2.jpg"
+         data-zooming-width="180"
+         data-zooming-height="277"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>Le Carré novels are quite often adapted for the big screen.  His older novels, circa Tinker Tailor, Soldier, Spy were novels first and became movies later.  Chapters were 30+ pages with meaty paragraphs of description.  The Honourable SchoolBoy was considered a good book but was passed up for the big screen because it considered unfilmable.  It makes me wonder if the author, with all his success at screen adapations, could avoid having the fact that his novel might become adapted to the screen effect the craft of his prose.</p>
+
+<p>Our Kind of Traitor is Le Carré’s twenty second novel and it felt like a victim of this success.  It feels more like a novel that was written with the intention of being a movie.  At least that was my first impression of the novel.  I was not a fan of the first 200 pages which were cuts between an interrogation and past events.  I wrongly assumed that it was written this way so that it could be adapted for the screen in the same manner. So, I found the first 200 pages jarring and longed for the meaty dense prose paragraphs of the past.  Once, the scenery was set though, I did find the novel flew by.</p>
+
+<p>This novel was adapted into a movie by Canal+, it’s currently free on Tubi if you want to watch it.  Have I told you how much I love Tubi?  And wasn’t I surprised to watch it and see how much the narrative structure was different.  A chronological narrative instead of a bifurcated interrogation.  So my theory that the book was written for the screen was really moot.</p>
+
+<p>This book is classified as a thriller but I didn’t find it that thrilling.  The only part that gave a real punch was the end of the novel.</p>
+
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    January 23, 2025
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/the-man-in-the-high-castle" title="The Man in the High Castle">
+        <h5>
+          The Man in the High Castle
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2025/dick-1b105e46c909cff3d4cd1de90eff03faf96a0cc8a30f72376d72cfce383d7964.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2025/dick-1b105e46c909cff3d4cd1de90eff03faf96a0cc8a30f72376d72cfce383d7964.jpg"
+         data-zooming-width="210"
+         data-zooming-height="331"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>Ubik has been on my want to read list for a while now, as I’ve heard it is quite the experience.  Frankly, anything by Philip K. Dick has been on my radar for a while now.  I’ve been keeping my eye out at the local used book store for several years now but couldn’t find Dick.  Eventually I decided to buy new. I ordered the entire Library of America collection of his novels.  The collection consists of 3 hardcover books that contain what is considered his best 13 novels out of his full 44 novel bibliography.  At $80 for the collection that squares out to about $6 a novel.</p>
+
+<p>This is the second time I’ve encountered a Library of America publication.  I picked up the complete novels of Hammett for $1 at a used book sale several years back.  One of the criticisms of this issue in the Amazon comments section was that the pages were thin.  This made me hesitate when making my purchase decision.  I don’t know the techical terms of what type of paper is used, how many grams it weighs, etc, but my best description of the paper is that is similar to bible or dictionary paper.  Is it lesser quality?  I don’t know, but it has a pleasant side-effect.  It makes each volume thinner and lighter.  This makes the reading experience more enjoyable as you are not struggling with a big heavy book.  The first of the three hard covers is over 800 pages (4 novels) and only about an inch thick.</p>
+
+<p>Now I want to read Ubik so why have I read “The Man in the High Castle”?  Well I like to read an author’s novels in the order they were published, when possible, to see their natural progression as a writer.  I hope to get to Ubik by the end of the year.</p>
+
+<p>You may or may not be aware that “The Man in the High Castle” is a four season series on Amazon Prime.  Before starting this book I had watched some of that series (I made it half way through season two).  Watching this much of the series did not spoil the book in the slightest.  The divergences from the original source material are so great that they almost feel like two different stories that occur in the same world. In the TV series there is no book but a series of secret video tapes.  I can see why they did this, as a book in a book makes sense.  When the medium changes to video it makes sense to make the distributed medium also video.  In both the TV series and novel the effect is the same, although it felt more effective in the novel.  You are reading a book about an alternate history.  The characters in the book are reading a book about an alternate history similar to your history.  This amplifies your empathy and puts your mind more in the alternate history being depicted.</p>
+
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    January 7, 2025
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/the-path-to-the-spiderrs-nests" title="The Path to the Spiders' Nest">
+        <h5>
+          The Path to the Spiders' Nest
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2024/spider-a11913ff853efe5ed3e27a755692e85b0b4e2774ec6badfb334de40228bc8117.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2024/spider-a11913ff853efe5ed3e27a755692e85b0b4e2774ec6badfb334de40228bc8117.jpg"
+         data-zooming-width="259"
+         data-zooming-height="400"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>During a summer trip, on a rainy day in PEI, we visited a bookstore in Charlottetown where I purchased this book.  The bookstore looked like a used book store but most of the books were new.  The proprietor had good taste in books.  It is rare that I encounter any Italo Calvino in a store and was happy to pick up this book. One thing struck out to me later that I didn’t notice during my purchase.  The price of $22.99 was written in pencil inside the book.  This is what most used book stores do.  However the original cover price had been hidden with a black marker.  During reading I noticed there was black marker over the original cover price, and rubbed it off to see that the cover price was $17.99.</p>
+
+<p>The book was published in 2001, and I purchased it in the summer of 2024 so I was not upset to be charged more than the cover price.  The price of books has definitely gone up in 23 years.  The person working there was an elderly woman with an old toy dog in the store, I assumed that she was the owner. I purchased this and Frankenstein, and she said “thank you” when I made my purchase.  Most places, when you buy something, the clerk doesn’t say “thank you”.  I read a lot in to that “thank you”, which may or may not be true.  That book stores have it rough these days with internet shopping and e-readers.  It definitely felt like a sad “thank you”, of an older woman that wished she could retire but works long hours at her bookstore.</p>
+
+<p>What’s most interesting about this book is that Calvino disowned it after writing it.  Prevented it from being published, then eventually revised it before allowing to be published again.  To that end he discuses this in a 30 page preface before the start of the book.  Which is a long preface considering the length of the book.  I like to read books in chronlolgical order that an author has written them to see progression.  This makes this edition a strange book.  As this is Calivo’s first book but he revised it 20 years later after he became a more seasoned writer.</p>
+
+<p>The book takes place in Italy during World War II, and follows Italian partisans fighting the Nazis from the mountains.  Calvino himself fought as a partisan.  The main character is Pin, a child that gets no childhood due to the war.  Most of the story is through the viewpoint of Pin however it later shifts to other characters briefly.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    December 28, 2024
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/the-pale-king" title="The Pale King">
+        <h5>
+          The Pale King
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2024/thepaleking-46c0ad8e3e592d7c5fb6843f8857e310f396ed8ed0307dfdedc688c80e0a86f8.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2024/thepaleking-46c0ad8e3e592d7c5fb6843f8857e310f396ed8ed0307dfdedc688c80e0a86f8.jpg"
+         data-zooming-width="311"
+         data-zooming-height="475"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>I bought this book quite a few years back, and it sat on my tsundoku shelf for a while.  I enjoyed Infinite Jest but procrastinated reading this for several reasons. I had apprehension that it would not be very good considering the subject is IRS tax agents.  The author took his own life during the writing of this book, so it is unfinished.  Did this mean that trying to write a book about IRS tax agents was a near impossible task and shouldn’t have been attempted in the first place?  Did this task drive the author to madness?  Would I be infected by such madness if I read it?</p>
+
+<p>This book didn’t drive me mad, but it did make me visit the optometrist. The font was so small, and I’m talking about the standard font size, not the ridiculously small footnote font size, that I couldn’t read it with my glasses on if I was laying down in bed, although sitting in a chair was fine, the different positions having different natural reading distances.  So as the evening wound down and I chose to read before bed, I took off my glasses and held the book precariously close to my face.  I got my eyes tested and purchased my first set of progressive lenses which eliminated this foolish situation and allowed me to finish the book while using glasses.  I’m old, my eyes are going, I’m sure my ears will be next.</p>
+
+<p>On the back of my used paperback, purchased for $7.50 at a local bookstore, is a price tag with “9500 KS” on the tag.Some quick searching on the web leads me to believe that this could be the Myanmar Kyat, but I am not 100% convinced. Mainly because I thought it could have been the Kroner and discovered that the currency code for the Swedish Kroner is SEK but if you are in Sweden the abbreviation is KR.  So KS could be the regional code in the language of origin, in which case I have no idea what “9500 KS” could mean.</p>
+
+<p>As for the book itself, I enjoyed it more than Infinite Jest, but I would be very cautious in recommending it to anyone that isn’t a huge David Foster Wallace fan, mainly because there is no coherent plot.  Stuff just happens.  It is a collage of scenes. You are shown many scenes by many different characters, and you are transported to a well fleshed out world, but how these scenes are related is a complete mystery to me.  The book is more of an experience than a story, made up of many little stories.  Wallace’s writing seems to have progressed since Infinite Jest, things felt smoother, and although the pace was slower (in one part of the book I swear it takes 20-30 pages for a character to travel from the airport to the office via shuttle) I was not put off by this pacing.</p>
+
+<p>What would this book have been like if it had been completed?  I don’t know.  Would the pacing have been different because the editor would have requested changes?  I don’t know.  I do know that Infinite Jest is 1000 pages long and The Pale King clocks in at 570 pages.  At the pace of the story telling, my guess is that if Wallace had ever finished The Pale King it also would have been 1000 pages long.  A review on goodreads states that Wallace’s longtime editor took 1000+ pages of the unfinished manuscript and whittled it down to what was published.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    December 15, 2024
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/the-hobbit" title="The Hobbit">
+        <h5>
+          The Hobbit
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2024/thehobbit-adcdbcf1ab0da891f9a37cd24973c916e56b4bca18d71376f8010c33a7986070.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2024/thehobbit-adcdbcf1ab0da891f9a37cd24973c916e56b4bca18d71376f8010c33a7986070.jpg"
+         data-zooming-width="500"
+         data-zooming-height="738"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>After the failure to read Frankenstein to my son, making his eyes roll into the back of his head, we switched to The Hobbit.<br />
+As Frankenstein was such a failure I searched on the line for lists of the best children’s books.  The Hobbit came up
+frequently in the top 10. Life is too short to read bad books.  Frankenstein wasn’t a bad book, it just wasn’t a good
+children’s book.  I had read The Hobbit decades ago but didn’t realize how masterful Tolkein’s prose was.  All the 
+dwarves arriving at Bilbo’s house did draw my son into the story early, and even sections that I thought would bore him
+kept his attention. May your beard never grow thin.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    November 2, 2024
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/frankenstein" title="Frankenstein; or, The Modern Prometheus">
+        <h5>
+          Frankenstein; or, The Modern Prometheus
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2024/frankenstein-7f9be2912fd9af8949ffce126382303916c30f233d8e8692ac111963dea0522c.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2024/frankenstein-7f9be2912fd9af8949ffce126382303916c30f233d8e8692ac111963dea0522c.jpg"
+         data-zooming-width="334"
+         data-zooming-height="500"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>During vacation this summer we visited a used bookstore in PEI.  My son found Frankenstein and asked if I could read it
+to him.  This melted my heart, the fact that my son picked a book with no pictures and wanted me to read it to him made
+me feel like I might actually being doing something right, raising a future reader.</p>
+
+<p>I read it to my son but the vocabulary and more old-timey complex sentence structures were too much for him at his age.
+He was very patient though and lasted about the first 30 pages before exclaiming “Dad, I don’t understand what is going
+on!!”.  Oh well, now we have a copy for when he is older.</p>
+
+<p>A month later I picked up the book and read it myself just in time for Halloween.  I found the structure of the book 
+most interesting.  The narration is essentially Walton -&gt; Frankenstein -&gt; the Monster -&gt; Frankentein -&gt; Walton.  A story
+within a story within a story, or a valley that you climb down and then climb out of.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    October 20, 2024
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/rabbit-redux" title="Rabbit Redux">
+        <h5>
+          Rabbit Redux
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2024/rabbits-a5ca23f392cc768abb50bb16b042efd3000f4cc52a939032ed8cc5de5770b0b7.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2024/rabbits-a5ca23f392cc768abb50bb16b042efd3000f4cc52a939032ed8cc5de5770b0b7.jpg"
+         data-zooming-width="375"
+         data-zooming-height="500"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>I had been looking for some used John Updike for a while but nothing ever turned up until I found an omnibus edition
+at a book fair, a fund-raiser for women in music.  The edition contained the first three Rabbit novels, “Rabbit, Run”, 
+“Rabbit Redux”, and “Rabbit is Rich”.  The price was nice too, one dollar fifty.  The price was actually $3, but it was
+the second day of the book fair and what ever was left was marked down to 50% off.</p>
+
+<p>What a find, you might say.  But this edition had been abused by its previous owner.  Someone had read the first novel
+and then set the book down face up in between books one and two.  This created a distinct crease down the spine and
+stressed the internal page bindings.  To keep the book from falling apart I put duct tape on the spine.  I attempted to
+mend the internals to no avail, the sections slowly came apart as I read.</p>
+
+<p>I did not enjoy reading “Rabbit, Run”.  I enjoyed reading Updikes prose, but the actions that Rabbit took and the book
+ending did not leave me wanting to read the sequels.  So I definitely procrastinated reading “Rabbit Redux”.  However, 
+I did enjoy Redux much more that Run.  This might have been the format.  In Run, Rabbit is the agent of his destiny
+no matter how cringe worthy that becomes.  In Redux, things seems to instead happen to Rabbit, and he just lets them 
+happen.  In both books you are essentially watching a train wreck but the perspective of Redux makes it a little more
+enjoyable ride.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    October 7, 2024
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/moby-dick" title="Moby Dick">
+        <h5>
+          Moby Dick
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2024/moby-3c360fe1cc868a51085d5abc91260fc5be29abc18677c797f8445dfc2e475241.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2024/moby-3c360fe1cc868a51085d5abc91260fc5be29abc18677c797f8445dfc2e475241.jpg"
+         data-zooming-width="333"
+         data-zooming-height="500"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>I purchased a used copy of Moby Dick and saved it for my summer read some time ago.  This summer I tackled the behemoth.
+Originally published in 1851 (175 years ago), the language is definitely different but not that difficult to read.</p>
+
+<p>The structure of the book, very short chapters, makes it an enjoyable read.  I went into this book expecting a simple
+narrative structure and was surprised that half of the chapters were detailed accounts on how whaling was
+performed back in the day.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    August 31, 2024
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/the-ground-beneath" title="The Ground Beneath Her Feet">
+        <h5>
+          The Ground Beneath Her Feet
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2024/ground_beneath-b9f245dc8d8c22eb2bde0006a766040d1a51fb91683713d46c171d46f29ba7da.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2024/ground_beneath-b9f245dc8d8c22eb2bde0006a766040d1a51fb91683713d46c171d46f29ba7da.jpg"
+         data-zooming-width="333"
+         data-zooming-height="500"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>Purchased used from thrift books. My copy had a price sticker with “L-21000” on it. Twenty-one thousand Lira? 200 pages 
+into the book I found a faded receipt from the year 2000. The book was first purchased from a bookstore in the airport 
+in Milan for 21000 Lira before the Euro was introduced in Italy.</p>
+
+<p>I’m assuming the original owner never finished the book, considering the location of the receipt, that they were most 
+likely using as a bookmark. I did finish the book, but it was a slog.</p>
+
+<p>Clocking in at 635 pages this is Rushdie’s longest book. I read that after the critical reception of this book, he 
+expressed regret at the form and vowed never to write a book so long again, which he stuck to.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    May 1, 2024
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/gravitys-rainbow" title="Gravity's Rainbow">
+        <h5>
+          Gravity's Rainbow
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2024/gravitys_rainbow-f44bda1ca21e9d13f4dd14a2271f9e5a41d353beb83c86fed4739cf341e51833.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2024/gravitys_rainbow-f44bda1ca21e9d13f4dd14a2271f9e5a41d353beb83c86fed4739cf341e51833.jpg"
+         data-zooming-width="328"
+         data-zooming-height="500"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>The first time I read this I was completely discombobulated from the experience and had no idea what I had just read. 
+This was a decade ago, I was busy, busy, busy, living a modern life, working out too hard at the gym and trying to read 
+this before I went to bed. I would never get through more than five pages before I fell asleep.</p>
+
+<p>Reading this book at that slow a pace just didn’t work as this is not pedestrian literature. It requires your attention. 
+It breaks rules, like naming main characters with the same first letter: Pirate Prentice, Pointsman. It shifts the 
+narrative without giving you warning. It introduces characters in the first 200 pages and doesn’t mention them again
+for 400 pages.</p>
+
+<p>A decade later with some trepidation I decided to take on this book again. But I came armed with a slower lifestyle and 
+less sleep debt. I also read it in conjunction to listening to the now defunct “Pynchon in Public” podcast. I would 
+read my required chapters then listen to the podcast to get some interesting insights.</p>
+
+<p>Another thing I did when reading this book was take breaks. The book is broken into four distinct sections:</p>
+
+<ol>
+  <li>Beyond the Zero page 1 - 177</li>
+  <li>Un Perm’ au Casino Herman Goering 181 - 278</li>
+  <li>In the Zone 279 -616</li>
+  <li>The Counterforce 617-760</li>
+</ol>
+
+<p>After reading each section I went and read a different book, and I found reading it in this manner quite enjoyable.</p>
+
+<p>RIP - Pynchon in Public podcast.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    February 2, 2024
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/the-mission-song" title="The Mission Song">
+        <h5>
+          The Mission Song
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2023/themissionsong-c003cf4428ce9be1ccb4756340da82cfffbb38eb94638a75a37f634aea25595f.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2023/themissionsong-c003cf4428ce9be1ccb4756340da82cfffbb38eb94638a75a37f634aea25595f.jpg"
+         data-zooming-width="260"
+         data-zooming-height="400"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>I purchased a used paperback copy for the sum of six dollars. As soon as I started reading the novel something felt off. 
+Eventually I figured out what was so odd about my reading experience. You see, over time, I have become accustomed to 
+paperbacks of a certain size. 4 1/4 inches wide by 7 inches tall to be precise. But my copy of The Mission Song is much
+taller measuring at 7 1/2 inches tall.</p>
+
+<p>This slightly different form factor was mildly discombobulating though I persevered, and “got used to it”.</p>
+
+<p>As for the novel, I found the protagonist quite naïve, especially as the novel got closer and closer to the conclusion. 
+Nothing in the novel surprised me but I might be getting too used to the Carré style as I have been reading his novels 
+in pretty close to consecutive order.</p>
+
+<p>Only six left to go and six of them are waiting patiently on my Tsundoku shelf …</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    September 17, 2023
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/antkind" title="Antkind">
+        <h5>
+          Antkind
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2023/antkind-44283027c55d4247a41e78818c29e130eb92a14b64364a2a6c2d29f8fc9e7dba.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2023/antkind-44283027c55d4247a41e78818c29e130eb92a14b64364a2a6c2d29f8fc9e7dba.jpg"
+         data-zooming-width="428"
+         data-zooming-height="640"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>Usually with a 700-page book I read it as fast as I can as I find the momentum brings the book alive. I could tell 100 
+pages in that there wasn’t the level of post-modern complexity ( lots of characters etc) that a sprint read was not 
+necessary. Not only that, I felt that a slow read made it more savoury. It took me almost two months to read and my 
+only regret is that I didn’t take a full three months to read. ;)</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    April 20, 2023
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/the-moors-last-sight" title="The Moor's Last Sigh">
+        <h5>
+          The Moor's Last Sigh
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2022/moors_sigh-a5a8728c0a943ce495c6464d2ed3514f2232a0ef32a3ec6ec62b64811903a0e6.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2022/moors_sigh-a5a8728c0a943ce495c6464d2ed3514f2232a0ef32a3ec6ec62b64811903a0e6.jpg"
+         data-zooming-width="253"
+         data-zooming-height="400"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>I found this book a slog and was sorely disappointed as I enjoyed The Satanic Verses so much and have read it twice. 
+This made me question whether Verses is as good as it seems or if the controversy makes it more exciting to read. But I 
+don’t believe that. I’ve read everything before Verses and although Grimus and Shame weren’t my favourites, Midnight’s 
+Children was a delight.</p>
+
+<p>I think what unnerved me about this book was the choice of narrative style. Why should I care about the narrator and his 
+family? Also, many of the characters in the story die, but I never felt any loss when the characters died as every 
+character felt cartoonish and not real, which is the style of the novel.</p>
+
+<p>I also believe much of the Indian background where the novel takes place made it less relatable to me. Whereas Verses 
+takes place partially in India and partially in London, this takes place completely in India. A country the author was 
+unable to travel to at the time of this writing. But again, I did not find this a problem when reading Midnight’s 
+Children</p>
+
+<p>What I believe we see here is an author struggling, as this was written when Rushdie was in hiding. Publishers were 
+getting killed for the act of publishing Verses and publishing a novel afterwards had high expectations and there was 
+caution about the subject matter. The narrative style makes the actions that occur in the novel seem more distance, 
+less impactful and more cartoonish. This could be intentional as it tones down the critiques of Indian society.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    November 21, 2022
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/the-constant-gardner" title="The Constant Gardener">
+        <h5>
+          The Constant Gardener
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2022/constant_gardener-3965aefc34db98e0531fc518b80c97140d2c60b04a5e9beac8bcb76e4126e007.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2022/constant_gardener-3965aefc34db98e0531fc518b80c97140d2c60b04a5e9beac8bcb76e4126e007.jpg"
+         data-zooming-width="309"
+         data-zooming-height="475"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>Purchased a paperback for $6 then later found it on hardcover for free in a little free library. Read the first 400 
+pages by hardcover but then went on vacation and wanted to travel light and switched to my paperback copy.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    August 31, 2022
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/dhalgren" title="Dhalgren">
+        <h5>
+          Dhalgren
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2022/dhalgren-7a7684dbac3cfff3fa77ba78f331f5e1f8297655a4cd461f66112f107491ef45.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2022/dhalgren-7a7684dbac3cfff3fa77ba78f331f5e1f8297655a4cd461f66112f107491ef45.jpg"
+         data-zooming-width="274"
+         data-zooming-height="475"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>Definitely a different experience. I would not recommend this to anyone I know. I picked up on circularness of the plot 
+and a couple of other things. Read the plot summary on wikipedia to learn what I missed.</p>
+
+<p>Long, banal and depressing. I started this and didn’t like the vibe. I took a vacation by the sea and didn’t want this 
+to be my sunny read so took ten days off from reading this and read some more jovial summer reads.</p>
+
+<p>So I read it slow at first but then powered through it to get it finished. This was a book that I read and kept with 
+based on reputation so I could put a notch on my belt that I’ve read it.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    August 3, 2022
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/the-corrections" title="The Corrections">
+        <h5>
+          The Corrections
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2022/the_corrections-527f7b7b441937a90cea8edc78407c33e45b1662dbd26c684898b9534483748e.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2022/the_corrections-527f7b7b441937a90cea8edc78407c33e45b1662dbd26c684898b9534483748e.jpg"
+         data-zooming-width="262"
+         data-zooming-height="400"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>I read Freedom before this which is also critically acclaimed and enjoyed it. I found the characters in this novel more 
+tragic and detestable at times. As the novel progressed my reading pace increased and I had sympathy for the entire 
+family.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    July 8, 2022
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/posts/the-mayor-of-casterbridge" title="The Mayor of Casterbridge">
+        <h5>
+          The Mayor of Casterbridge
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      
+
+
+<div class="book-cover">
+
+    <img src="/assets/books/2022/mayor_casterbridge-60192258c9c9e270c57e7c492d7aed2bf84306629db8b8a8c4efa5c00db46425.jpg" alt="Book Cover" class="zooming"
+         width="150px"
+
+         data-rjs="/assets/books/2022/mayor_casterbridge-60192258c9c9e270c57e7c492d7aed2bf84306629db8b8a8c4efa5c00db46425.jpg"
+         data-zooming-width="301"
+         data-zooming-height="475"
+    />
+
+</div>
+
+
+      <div class="article-content">
+        <p>I found out about this book because a female Mossad agent in The Little Drummer Girl reads it and this is mentioned 
+several times. So when I found a used copy for $5 I picked it up.</p>
+
+<p>Did I find this book absolutely enthralling? No. But it kept me reading and I liked that because it was a serial the 
+chapters were short and I enjoyed reading it at a steady pace of only a chapter or two each day.</p>
+
+<p>I can see why John Le Carré referenced the book. Henchard is a tragic character following a tragic path and many of his 
+novels post Smiley’s People are in the same vein.</p>
+
+      </div>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    May 20, 2022
+  </span>
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <span class="article-list-minutes">-->
+<!--    -->
+<!--    -->
+<!--  </span>-->
+<!--  <span class="article-list-divider">-</span>-->
+<!--  <div class="article-list-tags">-->
+<!--    -->
+<!--  </div>-->
+</div>
+    </li>
+  
+  
 </ul>
+
+        <footer class="footer ">
+  <p>
+   The creation of a thousand forests is in one acorn.
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  
+
+<script src="/assets/vendor-3ee2c63bbac916f96cd7f90e83ab767f058ead1301444c9966f5156911c8be7f.js" type="text/javascript"></script>
+
+
+  <script src="/assets/webfonts-96493456d319d1bf419afdf8701552d4d486fee6afd304897d4fd81eb4e0cc0b.js" type="text/javascript"></script>
+
+
+
+
+<script src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+
+</body>
+</html>

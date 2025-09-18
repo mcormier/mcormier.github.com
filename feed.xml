@@ -1,20 +1,213 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Matt Cormier</title>
+    <description></description>
+    <link>http://www.preenandprune.com</link>
+    <atom:link href="http://www.preenandprune.com/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>The Recognitions</title>
+        <description>&lt;p&gt;I recently read a funny forum post about large book stockholm syndrome.  That is, when reading a large book,  you love that book because it is large and that you stuck through and finished the book.  You are more likely to rate the book higher because of your sense of accomplishment and not on the merits of the book itself.  So take what I say with a grain of salt I guess.&lt;/p&gt;
+
+&lt;p&gt;The Recognitions was first published in 1955 and comes in just under 1000 pages.  It was also Gaddis’ first novel which is a gutsy move for a first time novelist. Although maybe it wasn’t as gutsy in 55 as it would be today.  I first encountered Gaddis with one of his later books, “A Frolic of His Own”.  He has definitely created his own style.  He doesn’t tell you who’s speaking most of the time and you have to figure it out for yourself by the order of the conversation or the style of the speaker.  Frolic is near 100 percent dialog so I was pleased to see some great descriptive paragraphs.&lt;/p&gt;
+
+&lt;p&gt;Half way through reading this I found out about www.williamgaddis.org which made reading the book much easier.  The Recognitions is encyclopedic in nature with many different characters.  With these types of novels you aren’t expected to get everything the first time, unless you’re sharp as a tack.  Just read and enjoy and maybe come back to it in a decade if you feel like reading it again.&lt;/p&gt;
+
+&lt;p&gt;Would I recommend this novel to others?  Yes, but I’d hesitate to make the recommendation as most people I know are my age, busy, and recommending a 1K pager might be take the wrong way;  not everyone enjoyes large book stockholm syndome.&lt;/p&gt;
+
+&lt;p&gt;I like big books and I cannot lie,&lt;/p&gt;
+
+&lt;p&gt;You other brothers can’t deny …&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Sep 2025 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/the-recognitions</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-recognitions</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Stereo Update - Wiim Pro Plus</title>
+        <description>&lt;p&gt;I recently purchased the Wiim Pro Plus, but to talk about it I first need to talk a little bit about the Sonos Port, it is what I have upgraded from and it is what I am comparing to.  Both devices are audio streamers and are roughly in the same price point, although the Port at $550 CA is $250 more than the Wiim Pro Plus.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/stereoUpdate/wiim_plus_in_the_box.jpg&quot; alt=&quot;Wiim box contents&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Why did I buy the Port 3 years ago?  Because the Wiim Pro Plus hadn’t been released yet.  At the time, the choice for an affordable streamer was between the Sonos Port and the Bluesound Node.  The Bluesound Node at $800 was more than I was willing to pay. I just wasn’t willing to spend that much cash on a streamer, I had bad experiences with Airport Express units cutting out, and I was listening to everything primarily on vinyl.&lt;/p&gt;
+
+&lt;p&gt;The Bluesound supports up to 24bit/192kHz while the Sonos Port supports 16bit/48kHz.  Because the Port has a coaxial out I thought that I could hook it up to an external DAC and get better quality but the digital out is limited to 16bit/44.1KHz so using an external DAC can be worse quality.&lt;/p&gt;
+
+&lt;p&gt;So I saved money and lived with this 16bit/48kHz limitation for three years.  I became accustomed to listening to streaming music upstairs instead of vinyl.  Cueing up a record is less fun when you are walking through an obstacle course of toys.  Streaming music is also more budget friendly than buying hard media although I haven’t completely stopped buying records.&lt;/p&gt;
+
+&lt;p&gt;But I was never fully satisfied with the sound of the Sonos Port.  I knew that it was limited to 16bit/48kHz and Tidal Max and Apple Lossless and High Res Lossless have 24bit with higher kHz frequencies. My audio-nervosa was gnawing at me, I wanted better quality sound.  But it wasn’t true audio-nervosa, at higher volumes I could hear a distortion or harshness to the sound.  I highly suspected the Sonos Port was the cause of it. My amplifier is brqnd new and records did not exhibit the same sound signature.&lt;/p&gt;
+
+&lt;p&gt;I found out about the Wiim Pro Plus in the vogue manner, by asking ChatGPT a simple question. “What devices are similar to the Sonos Port with better sound quality?” And then peppered it with more questions until I was convinced it was a great replacement for the Sonos Port.  I made sure to search the interwebs to validate ChatGPT’s info to avoid the possibility of having a mutual hallucination with an AI chat program.&lt;/p&gt;
+
+&lt;p&gt;The Wiim Pro Plus sells for $320 CA on Amazon.  I checked my local audio dealer and it was the same price so I drove down and bought local.  As luck would have it my local store was selling it for $300 and not $320.  The dealer had lots of praise for the Wiim device (the parametic equalizer that can be customized by input source was a biggie) and not much good to say about Sonos (it’s out of date hardware that should be updated).  Sonos had a huge debacle when they upgraded their software app last summer, they redesigned the interface and introduced some horrible bugs.  One of them was playlists, he had 300 playlists and lost them all, so was burned badly by an “innocuous” software update..&lt;/p&gt;
+
+&lt;p&gt;I did not A/B test the devices because I use a pricey RCA cable and don’t have two to run the devices in parallel. Hopefully new purchasing bias has not clouded my ears.  It was easy to test, on the Port if I turned the volume on the amp up to 45 range I would hear the harshness/mild distortion.  I would turn the volume down to 40 most of the time as this was the best listening volume where the harshness wasn’t as prominent. There is no harshness on the Wiim at the any volume level that I could find.  I don’t turn it past 45 because the stereo is just loud enough.  This is a great feeling, setting the volume to what makes sense and not comprimising on the sound due to harshness/distortion.&lt;/p&gt;
+
+&lt;p&gt;One of the nice features in the Wiim software is that it tells you what bit rate and frequency the song is streaming at.  This is enlightening as Tidal max could be many combinations of encodings.  It’s like a manumatic car, an automatic car that lets you change gears manually and see the current gear when in automatic mode. You can’t change the encoding level but this extra information gives an added sense of control. This is helpful when there are multiple versions of an album with different encodings which can happen occasionally.   Sleater-Kinney is a good example, they have a High (16bit/44.1kHz) version and a Max (24bit/96kHz) of most of their albums.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/stereoUpdate/Sleater@2x-66dc98c1f98b811598330acae8ce806cf98446c75333ebe404205ab136528f5b.png&quot;&gt;
+  &lt;img src=&quot;/assets/stereoUpdate/Sleater-1cafe418aa2e41a638a2ebf9452454079efc1b118ae961d1ec9a2d0b936412d9.png&quot; alt=&quot;Wiim Mobile App&quot; class=&quot;zooming&quot; data-rjs=&quot;/assets/stereoUpdate/Sleater@2x-66dc98c1f98b811598330acae8ce806cf98446c75333ebe404205ab136528f5b.png&quot; data-zooming-width=&quot;1170&quot; data-zooming-height=&quot;2532&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My favourite feature of the Wiim Pro Plus is the remote.  It’s not an expensive remote, what do you expect for a $300 device, it’s very light plastic but it serves a vital purpose.  One of my gripes on using the Sonos device was that it was completely controlled by my phone.  What would happen to me is that I would sit down in front of the stereo and cue some music up, but since I had my phone in front of my face I would then check the news, and faceplant, and before I knew it an hour went by and I wasn’t really listening to the music.  The remote has 4 preset buttons and you can set these to: a custom playlist, album, or radio station.  For me this is groundbreaking.  It means I can start my music listening session without looking at my phone and can skip tracks on an album without looking at my phone. This lends itself to more quality listening sessions.  Currently I have the presets set to 3 different albums and plan to swap out the albums occasionally.  The 4th preset is for my son so that he can listen to his favourite playlist of songs without asking me to cue it up for him.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/stereoUpdate/remote.webp&quot; alt=&quot;Wiim remote&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are some things that the Sonos Port can do that the Wiim cannot.  The Port will natively stream Bandcamp and Apple Music and the Wiim cannot. The Wiim Pro Plus does do AirPlay 2 as a substitute but it’s better to get the device to stream direct from the server.  AirPlay 2 means it will rely on your phone as an intermediary.  If you get a phone call the streaming will be effected, it drains your phone battery, etc.  I would recommend using Tidal or Qobuz with a Wiim.  This may not be practical for people that are locked into yearly Apple Music contracts or packaged Apple One deals.&lt;/p&gt;
+
+&lt;p&gt;Like the preset buttons, another nice touch with the Wiim is favouriting albums.  If you click the heart button in Wiim app the album is directly favourited on your Tidal account.  This is not how Sonos works.  In Sonos I would have to switch back and forth between the Sonos and Tidal apps so that I could favourite an album.&lt;/p&gt;
+
+&lt;p&gt;There are many features in the Wiim that I have not covered.  It has an analog and optical input so you can use it as a switch.  I have not tried, but I could easily hook up the optical out of my Sony CD player to the Wiim and use it as an intermediary DAC.  It also has voice control which Amazon Alexa and Google Cast.  Two services that I don’t use but I can imagine will be selling features for some.&lt;/p&gt;
+
+&lt;p&gt;In conclusion the Sonos Port has a worse DAC and worse audio quality than the Wiim but may appeal to some as it works well with Apple Music and is more affordable than a Bluesound node.  The Wiim is crystal clear and a great value for the price if you are not completely in the Apple Music ecosystem.&lt;/p&gt;
+
+&lt;p&gt;Here is a tech spec summary:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Device&lt;/th&gt;
+      &lt;th&gt;Price&lt;/th&gt;
+      &lt;th&gt;DAC&lt;/th&gt;
+      &lt;th&gt;Max Bit Rate&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Sonos Port&lt;/td&gt;
+      &lt;td&gt;$550&lt;/td&gt;
+      &lt;td&gt;Burr-Brown PCM5102&lt;/td&gt;
+      &lt;td&gt;16bit/48kHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Wiim Pro Plus&lt;/td&gt;
+      &lt;td&gt;$300&lt;/td&gt;
+      &lt;td&gt;AKM 4493SEQ&lt;/td&gt;
+      &lt;td&gt;24bit/192kHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bluesound Node&lt;/td&gt;
+      &lt;td&gt;$800&lt;/td&gt;
+      &lt;td&gt;Sabre ES9018K2M&lt;/td&gt;
+      &lt;td&gt;24bit/192kHz&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 16 Aug 2025 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/stereo-update</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/stereo-update</guid>
+      </item>
+    
+      <item>
+        <title>Slow Learner</title>
+        <description>&lt;p&gt;I have a goal to read one Pynchon novel a year, and for the last few years I’ve been rereading each novel in published order.  This year was Vineland and next year I plan to reread Mason &amp;amp; Dixon.  Everything has been thrown for a loop as a new novel “Shadow Ticket” is expected to be published this October. With Vineland, Slow Learner, and now Shadow Ticket my regular one Pynchon novel a year routine has unexpectedly possibly become a three Pynchon novel year.&lt;/p&gt;
+
+&lt;p&gt;I’m not a big fan of short stories but decided to buy and read Slow Learner this year so that I could have that completist badge under my belt for Pynchon.  Slow Learner contains five short stories and it was interesting to read them and see the author’s style develop.  I felt that Pynchon had found his voice by the third story.  The introduction was also interesting, most notable the author admitting to using a thesaurus improperly and his embarassment of the use of the word “tentacles”.&lt;/p&gt;
+
+&lt;p&gt;I read this while on vacation, at the cottage, and although I haven’t been a fan of short stories in the past, I found it fit well with all the leisure activities that go with vacation.  Maybe I’ll plan some Borges for next summer.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Jul 2025 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/slow-learner</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/slow-learner</guid>
+      </item>
+    
+      <item>
+        <title>My Life</title>
+        <description>&lt;p&gt;It took me twenty months to finish this book.  It was the definition of a slog for me.  Obviously I read other books during this time.  Between novels I would make myself read another 50 pages to get through it, but sometimes I would just pick up another piece of fiction after 20 pages.  I’ve read Mulroney and Obama’s 1000 page tomes and they were a breeze and interesting compared to this monstrosity.&lt;/p&gt;
+
+&lt;p&gt;The most interesting part of this was him admitting to prank calling a brothel with his compatriots; the head Madame getting angry that they were tying up the line.  Most of it is quite dull. It reads like a fluffed up name dropping rework of a reread of his agenda book.&lt;/p&gt;
+
+&lt;p&gt;Not being American, and this being a bit before my time, the domestic policy stuff was not interesting to me.  How Ross Perot and Ralph Nader effected elections was interesting though, and some of the intricacies of the Israel/Palestine peace negotiations near the end of the book.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Jun 2025 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/my-life</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/my-life</guid>
+      </item>
+    
+      <item>
+        <title>Rabbit is Rich</title>
+        <description>&lt;p&gt;I’ll never hear about Consumer Reports now without thinking about this book.  The third in a series, Rabbit is Rich won the Pulitzer in 1982.  The first and second in the series are like watching a trainwreck. An emotional trainwreck constructed from the flawed nature of humanity.  This book is not such a trainwreck, although Rabbit’s son Nelson does play the surrogate for the cringe role, it is more distant as it is not happening directly to Rabbit.&lt;/p&gt;
+
+&lt;p&gt;Each book in this series was published 10 years apart, 1960, 1970 and now 1980.  The author has aged and the character has aged the same amount of time.  I can only imagine what reading this during publishing was like.  I think that’s what makes this series so good. That there was temporal distance between the sequels.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 May 2025 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/rabbit-is-rich</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/rabbit-is-rich</guid>
+      </item>
+    
+      <item>
+        <title>Do Androids Dream of Electric Sheep?</title>
+        <description>&lt;p&gt;This was an interesting read considering how famous the movie BladeRunner is.  Things I learned while reading the book.  The term bladerunner is not used in the book, it is an invention of the movie.  The term replicant was also invented for the movie.  Ridley Scott explains why they chose not to use the term android in the director’s commentary of the film but the explanation was not that clear to me.&lt;/p&gt;
+
+&lt;p&gt;The book is bleaker than the movie, if you can believe that.  People live in a world where animals are scarce, rare and valuable.  There is also an entire industry of fake animals.  Deckard also has a wife in the novel which puts doubt into the question on whether he is an android or not.  Although the scene where an android asks Deckard if he’s ever taken the test on himself is in the book.  Ridley Scott states in the director’s commentary that in the movie Deckard is supposed to be an Android, this of course conflicts with BladeRunner 2049 since Harrison Ford has aged, and I don’t think Androids are supposed to age.&lt;/p&gt;
+
+&lt;p&gt;My favourite part was the section where there is another police department that Deckard doesn’t know about that is being run by Androids.  Or is it the other way around? Deckard is working at a secret android police station and he is an android.  This is the beauty of PKD’s writing, he creates ambiguity that keeps you guessing.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 22 Mar 2025 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/electric-sheep</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/electric-sheep</guid>
+      </item>
+    
+      <item>
+        <title>Vineland</title>
+        <description>&lt;p&gt;Reading this novel was part of an ongoing project of reading one Pynchon novel a year in chronological order of publication.  Last year was Gravity’s Rainbow and hear we are a year later reading Vineland.  This is my second read of Vineland, but I didn’t remember any of the book except Zoyd crashing through the window at the beginning of the book, so it felt like a first reading.  Maybe I was a Thanatoid when I read it, with an attention span of a gnat, and I have returned to the land of the living.&lt;/p&gt;
+
+&lt;p&gt;Pynchon’s prose can be so dense at times that it is easy to miss something if your attention wanders.  General advice is to push through, as you will not get everything on a first go, repeated reads can be enlightening though.  I found Vineland a lot of fun.  It has less characters than Gravity’s Rainbow so the only thing you needed to do is watch out for narrative shifts.&lt;/p&gt;
+
+&lt;p&gt;Depending on the age of the reader, this book may not be as fun to read for a younger reader as it makes so many television(tubal) references that would take research to understand.&lt;/p&gt;
+
+&lt;p&gt;I did find the book took a while to get used to the Pynchon style again but I hit a reading stride around page 200 onwards.  Pynchon’s long sentences are really poetry presented as prose at times, and in the right of state of mind reading feels like sailing.  This is why I keep coming back to Pynchon, as I have not encountered anything similar in any author.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Mar 2025 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/vineland</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/vineland</guid>
+      </item>
+    
+      <item>
+        <title>The Three Stigmata of Palmer Eldritch</title>
+        <description>&lt;p&gt;My second foray into the many worlds of Philip K Dick.  I did not enjoy this as much as The Man in the High Castle but that doesn’t mean it wasn’t enjoyable.  This book falls under the category of books that would be very difficult to adapt for film although I’m sure a master story teller could find a way.&lt;/p&gt;
+
+&lt;p&gt;I found it dissatisfying that precognition figured so prominently in the begining of the novel but faded away in the second half.  Maybe this was intentional, that using Chew-Z made precognition not possible as the characters never left the hallucination.  Maybe Dick rewrote the story and didn’t have time to fix such a change in tone.  The book is definitely ambiguous.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Feb 2025 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/stigmata</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/stigmata</guid>
+      </item>
+    
+      <item>
+        <title>Our Kind of Traitor</title>
+        <description>&lt;p&gt;Le Carré novels are quite often adapted for the big screen.  His older novels, circa Tinker Tailor, Soldier, Spy were novels first and became movies later.  Chapters were 30+ pages with meaty paragraphs of description.  The Honourable SchoolBoy was considered a good book but was passed up for the big screen because it considered unfilmable.  It makes me wonder if the author, with all his success at screen adapations, could avoid having the fact that his novel might become adapted to the screen effect the craft of his prose.&lt;/p&gt;
+
+&lt;p&gt;Our Kind of Traitor is Le Carré’s twenty second novel and it felt like a victim of this success.  It feels more like a novel that was written with the intention of being a movie.  At least that was my first impression of the novel.  I was not a fan of the first 200 pages which were cuts between an interrogation and past events.  I wrongly assumed that it was written this way so that it could be adapted for the screen in the same manner. So, I found the first 200 pages jarring and longed for the meaty dense prose paragraphs of the past.  Once, the scenery was set though, I did find the novel flew by.&lt;/p&gt;
+
+&lt;p&gt;This novel was adapted into a movie by Canal+, it’s currently free on Tubi if you want to watch it.  Have I told you how much I love Tubi?  And wasn’t I surprised to watch it and see how much the narrative structure was different.  A chronological narrative instead of a bifurcated interrogation.  So my theory that the book was written for the screen was really moot.&lt;/p&gt;
+
+&lt;p&gt;This book is classified as a thriller but I didn’t find it that thrilling.  The only part that gave a real punch was the end of the novel.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 23 Jan 2025 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/our-kind-of-traitor</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/our-kind-of-traitor</guid>
+      </item>
+    
+      <item>
+        <title>The Man in the High Castle</title>
+        <description>&lt;p&gt;Ubik has been on my want to read list for a while now, as I’ve heard it is quite the experience.  Frankly, anything by Philip K. Dick has been on my radar for a while now.  I’ve been keeping my eye out at the local used book store for several years now but couldn’t find Dick.  Eventually I decided to buy new. I ordered the entire Library of America collection of his novels.  The collection consists of 3 hardcover books that contain what is considered his best 13 novels out of his full 44 novel bibliography.  At $80 for the collection that squares out to about $6 a novel.&lt;/p&gt;
+
+&lt;p&gt;This is the second time I’ve encountered a Library of America publication.  I picked up the complete novels of Hammett for $1 at a used book sale several years back.  One of the criticisms of this issue in the Amazon comments section was that the pages were thin.  This made me hesitate when making my purchase decision.  I don’t know the techical terms of what type of paper is used, how many grams it weighs, etc, but my best description of the paper is that is similar to bible or dictionary paper.  Is it lesser quality?  I don’t know, but it has a pleasant side-effect.  It makes each volume thinner and lighter.  This makes the reading experience more enjoyable as you are not struggling with a big heavy book.  The first of the three hard covers is over 800 pages (4 novels) and only about an inch thick.&lt;/p&gt;
+
+&lt;p&gt;Now I want to read Ubik so why have I read “The Man in the High Castle”?  Well I like to read an author’s novels in the order they were published, when possible, to see their natural progression as a writer.  I hope to get to Ubik by the end of the year.&lt;/p&gt;
+
+&lt;p&gt;You may or may not be aware that “The Man in the High Castle” is a four season series on Amazon Prime.  Before starting this book I had watched some of that series (I made it half way through season two).  Watching this much of the series did not spoil the book in the slightest.  The divergences from the original source material are so great that they almost feel like two different stories that occur in the same world. In the TV series there is no book but a series of secret video tapes.  I can see why they did this, as a book in a book makes sense.  When the medium changes to video it makes sense to make the distributed medium also video.  In both the TV series and novel the effect is the same, although it felt more effective in the novel.  You are reading a book about an alternate history.  The characters in the book are reading a book about an alternate history similar to your history.  This amplifies your empathy and puts your mind more in the alternate history being depicted.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 07 Jan 2025 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/the-man-in-the-high-castle</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-man-in-the-high-castle</guid>
+      </item>
+    
   </channel>
 </rss>
