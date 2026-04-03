@@ -7,7 +7,7 @@ tags: []
 cover: books/2026/folktales.jpg
 ---
 
-200 hundred Italian folktales documented by Italo Calvino over the course of 700 pages.  Reviews on goodreads complain about the similarity of some of the stories, and I can see that criticism, but not that many of them were highly similar.  To read a book like this, you need to take your time.  Read a story here and there until you are done.  I would not recommend reading this compendium straight through so that you can say you've read it.  I took 10 months to read this book as I enjoyed it at a leisurely pace. 
+Two hundred Italian folktales documented by Italo Calvino over the course of 700 pages.  Reviews on goodreads complain about the similarity of some of the stories, and I can see that criticism, but not that many of them were highly similar.  To read a book like this, you need to take your time.  Read a story here and there until you are done.  I would not recommend reading this compendium straight through so that you can say you've read it.  I took 10 months to read this book as I enjoyed it at a leisurely pace. 
 
 The fact that Calvino decided to compile these folktales early in his career probably shaped his style significantly.  His first novel "The path to the Spiders' Nest" is quite dark.  His second, "The Cloven Viscount", however has a fantastical fairy tale feel to it.
 
