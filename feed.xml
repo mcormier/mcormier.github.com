@@ -1,20 +1,156 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Matt Cormier</title>
+    <description></description>
+    <link>http://www.preenandprune.com</link>
+    <atom:link href="http://www.preenandprune.com/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Fury</title>
+        <description>&lt;p&gt;After Buckaroo Banzai this was a breath of fresh air.  His previous novel, &lt;cite&gt;The Ground Beneath Her Feet&lt;/cite&gt;, weighing 600 pages, was not very commercially succesful.  So Salman vowed to write shorter books and this is his first kick at the can.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2001, Fury, 259 Pages&lt;/li&gt;
+  &lt;li&gt;2005, Shalimar the Clown, 398 pages&lt;/li&gt;
+  &lt;li&gt;2008, The Enchantress of Florence, 352 pages&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After this book he does increase his page count to the 400 page range.  He must have gotten his mojo back after the defeat of &lt;cite&gt;The Ground Beneath Her Feet&lt;/cite&gt;. This wasn’t an enjoyable read because I didn’t enjoy the protagonist, but it was short enough that I wouldn’t give it an unfavourable review.  It’s definitely a transitional novel in the long career of an author.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 14 Jul 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/fury</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/fury</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>The Baron in the Trees</title>
+        <description>&lt;p&gt;This is my second time reading this novel.  I first read it over twenty five years.  I picked up a French copy at a used booked store when I was in Europe.  So it’s been a while since I’ve read it.&lt;/p&gt;
+
+&lt;p&gt;This time I had an English copy that I read to my son.  It didn’t always keep his attention rapt but there is one scene in the book where he had a visceral reaction.  After the bandit Gian dei Brughi becomes addicted to books he no longer wants to be a bandit any longer.  Two other bandits blackmail him into doing another dirty deed by stealing a book and ripping pages out of it.  Every time a page was ripped from the book in the story my son screamed in agony.  You would have thought that I was ripping out the last pages in the book that we were reading.  This is why I keep coming back to Italo Calvino novels, he was a master storyteller.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/thebaron</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/thebaron</guid>
+      </item>
+    
+      <item>
+        <title>Buckaroo Banzai Against the World Crime League</title>
+        <description>&lt;p&gt;This is the worse book I’ve ever read, or at least the worse book in a decade.  I am a big fan of the peculiar Buckaroo Banzai movie released in 1984.  It has become a cult classic to many and even teased about a sequel in the end credits that was never made.  When I found out that the sequel came out as a book five years ago I bought a copy.  Only afterwards did I read the reviews on GoodReads that this book was a steaming turd.&lt;/p&gt;
+
+&lt;p&gt;I read it to see how terrible it was and a dumpster fire it is; very flat from a character and plot point, horrible insulting dialog between characters, The Pope asking Buckaroo for help.  But the icing on the cake is that World Crime League isn’t really involved in the book.  There is a World Crime League in the book but it has nothing to do with the main plot.  What seems to have happened here was that a title was choosen 40 years ago, and an attempt was made to write a book to the title.  But the author was incapable of writing an entire book on an idea, so what we have is a collage of half written books put together to cash in on the famous cult status of the movie. It’s a whopping 620 pages too and could have been edited down to a fun 200 page pulp novel.&lt;/p&gt;
+
+&lt;p&gt;When I originally found out about GoodReads what I thought was good about it was that I could do research and read reviews to avoid bad books.  Unfortunately, I bought this on emotion before doing my research.  Lesson learned.  The only silver lining to this is the book I’m reading after seems like a masterpiece now.  I may become gunshy now, sticking to top 100 books of all time lists for a while.&lt;/p&gt;
+
+&lt;p&gt;Life is to short to read bad books.  Don’t read this one.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Jun 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/buckaroo</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/buckaroo</guid>
+      </item>
+    
+      <item>
+        <title>Martian Time-Slip</title>
+        <description>&lt;p&gt;I took this book on vacation with me but didn’t get too far into it as everything was hustle and bustle.  I enjoy reading in quiet, relaxed places, something that can be harder and harder to find these days, but I had an enjoyable vacation and reading a book wasn’t my vacation goal.  I did have a tragic incident by the pool where the book cover got wet and warped a little. Some book piled on book action was needed later to adjust the book.&lt;/p&gt;
+
+&lt;p&gt;So the start of this book was read in a foreign country and then it was finished when I arrived home.  Although this is not my favourite Phillip Dick, I felt that some of the characters were very well formed, especially Kott.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 04 Apr 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/time-slip</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/time-slip</guid>
+      </item>
+    
+      <item>
+        <title>Italian Folktales</title>
+        <description>&lt;p&gt;Two hundred Italian folktales documented by Italo Calvino over the course of 700 pages.  Reviews on goodreads complain about the similarity of some of the stories, and I can see that criticism, but not that many of them were highly similar.  To read a book like this, you need to take your time.  Read a story here and there until you are done.  I would not recommend reading this compendium straight through so that you can say you’ve read it.  I took 10 months to read this book as I enjoyed it at a leisurely pace.&lt;/p&gt;
+
+&lt;p&gt;The fact that Calvino decided to compile these folktales early in his career probably shaped his style significantly.  His first novel “The path to the Spiders’ Nest” is quite dark.  His second, “The Cloven Viscount”, however has a fantastical fairy tale feel to it.&lt;/p&gt;
+
+&lt;p&gt;The beauty of a folktale is the simplicity and brevity.  Characters are either, princesses, kings, princes, merchants, hunchbacks or thieves.  There is no description of facial features or hair colour.  This is the nature of a folktale, to use short descriptions to quickly start a story.  The power of three is also used quite often.  There was a merchant that had three daughters …  There was a king that had three sons …&lt;/p&gt;
+
+&lt;p&gt;Favourite tale: Louse Hide.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Mar 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/folktales</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/folktales</guid>
+      </item>
+    
+      <item>
+        <title>Libra</title>
+        <description>&lt;p&gt;A historical fiction of the life of Lee Harvey Oswald before and after the assassination of JFK. This book was quite enthralling and well done.  It’s interesting that this book was published in 1988 and Oliver Stone’s JFK was released in 1991.  That movie was predominantly influenced by another book “On the Trail of the Assassins” which was also published in 1988.&lt;/p&gt;
+
+&lt;p&gt;I will publish my favourite passage from the book, but I must warn you, it is not for the squeamish:&lt;/p&gt;
+
+&lt;p&gt;“Three days later he felt a stinging heat when he pissed.  It burned inside.  Two days after that he couldn’t help noticing a thick discharge from the selfsame organ.  He went to the head in the middle of the night to study the fluid, a dreadful yellowish drip.  At the lab they took a seris of smears and clutures, gave him nine hundred thousand units of penicillin, intramuscular, over a three-day period and returned him to light duty.&lt;/p&gt;
+
+&lt;p&gt;Ozzie had the clap.”&lt;/p&gt;
+
+&lt;p&gt;What a way to end a chapter.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Jan 2026 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/libra</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/libra</guid>
+      </item>
+    
+      <item>
+        <title>Robinson Crusoe</title>
+        <description>&lt;p&gt;I’ve read a handful of reviews of this book on goodreads and there are many that are dismissive of this book because it has a main character with colonial values during colonial times. That some of the newer generations can’t judge a book by the time period it was written is disheartening.  Our copy comes from an old mini library set of children’s books, a lot of the reviews seemed to also be judging this book as high literature, which it is not.&lt;/p&gt;
+
+&lt;p&gt;I read this to my 8 year old and it kept him engaged the whole time.  I’ll never forget, near the end of the book, when he is stranded on the island, how his eyes would go wide every time it was mentioned how many years he was now stranded on the island.  3 years! 5 years! 7 years!  He was captivated.  What also captured his interest was the concept of cannibals.&lt;/p&gt;
+
+&lt;p&gt;The book does use the word negro in it, which is not a word that I was ready to introduce my son to yet. I changed the reading slightly so as to not use the word. I did not change the use of the word “savage”, which is used often but I did explain the historical attitudes and context on that one.  A couple of days after explaining the historical context of the word “savage”, my son asked me to use the word “bokoblins” instead of “savage”.  Bokoblins are goblin like creatures from the Zelda game.  He is quite empathetic by nature and our public school system does a good job of humanizing and celebrating diversity.  He understood that the attitude was no longer acceptable and found a way to make it more palatable.&lt;/p&gt;
+
+&lt;p&gt;My reason for reading him an old book was not to expose him to outdated words, but to expose him to the style of old writing.  The sentence structure is very elequent, more poetic than modern prose, as it can be in older books.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 04 Dec 2025 00:00:00 -0400</pubDate>
+        <link>http://www.preenandprune.com/posts/robinson-crusoe</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/robinson-crusoe</guid>
+      </item>
+    
+      <item>
+        <title>Shadow Ticket</title>
+        <description>&lt;p&gt;I have a backlog of books to read.  This is not a negative thing, I embrace it as a positive.  When finished a book I can look at my Tsundoku and pick my next read immediately.  I did not expect another Pynchon book to be published in my lifetime, he’s getting up in years, he’s 88.  When I finished Ubik in the last week of September I didn’t start a new book immediately, in anticipation of the October 7th release of Shadow Ticket.  I wanted to start it on release date and did, so read Italian FolkTales while I waited for the release.&lt;/p&gt;
+
+&lt;p&gt;I was excited to chew on this novel, but what I realized halfway through was that I enjoy the novels from an earlier period in his career more.  Everything from Against the Day and earlier.  Vice, Edge and now Ticket are all variants of a gumshoe genre which is not my favourite.  With respect to those other two more recent novels, I enjoyed this more than Bleeding Edge but not as much as Inherent Vice.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Oct 2025 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/shadow-ticket</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/shadow-ticket</guid>
+      </item>
+    
+      <item>
+        <title>Ubik</title>
+        <description>&lt;p&gt;This was the most entertaining novel by Philip K. Dick that I’ve read this year, and I’ve read four of them.  The three volume set from Library of America has been quite the enjoyable read.  I plan on reading volume two next year which is another five novels.&lt;/p&gt;
+
+&lt;p&gt;I was surprised to see that Ubik was never made into a film, however the wikipedia entry does document some failed attempts and screenplays. At the end of the volume was a chronology of the author’s life, I found this section interesting but quite sad.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/ubik</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/ubik</guid>
+      </item>
+    
+      <item>
+        <title>The Recognitions</title>
+        <description>&lt;p&gt;I recently read a funny forum post about large book stockholm syndrome.  That is, when reading a large book,  you love that book because it is large and that you stuck through and finished the book.  You are more likely to rate the book higher because of your sense of accomplishment and not on the merits of the book itself.  So take what I say with a grain of salt I guess.&lt;/p&gt;
+
+&lt;p&gt;The Recognitions was first published in 1955 and comes in just under 1000 pages.  It was also Gaddis’ first novel which is a gutsy move for a first time novelist. Although maybe it wasn’t as gutsy in 55 as it would be today.  I first encountered Gaddis with one of his later books, “A Frolic of His Own”.  He has definitely created his own style.  He doesn’t tell you who’s speaking most of the time and you have to figure it out for yourself by the order of the conversation or the style of the speaker.  Frolic is near 100 percent dialog so I was pleased to see some great descriptive paragraphs.&lt;/p&gt;
+
+&lt;p&gt;Half way through reading this I found out about www.williamgaddis.org which made reading the book much easier.  The Recognitions is encyclopedic in nature with many different characters.  With these types of novels you aren’t expected to get everything the first time, unless you’re sharp as a tack.  Just read and enjoy and maybe come back to it in a decade if you feel like reading it again.&lt;/p&gt;
+
+&lt;p&gt;Would I recommend this novel to others?  Yes, but I’d hesitate to make the recommendation as most people I know are my age, busy, and recommending a 1K pager might be take the wrong way;  not everyone enjoyes large book stockholm syndome.&lt;/p&gt;
+
+&lt;p&gt;I like big books and I cannot lie,&lt;/p&gt;
+
+&lt;p&gt;You other brothers can’t deny …&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Sep 2025 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/the-recognitions</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-recognitions</guid>
+      </item>
+    
   </channel>
 </rss>
