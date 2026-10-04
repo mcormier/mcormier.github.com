@@ -1,20 +1,192 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Matt Cormier</title>
+    <description></description>
+    <link>http://www.preenandprune.com</link>
+    <atom:link href="http://www.preenandprune.com/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>The Watcher</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;The Watcher 1963&lt;/li&gt;
+  &lt;li&gt;Smog 1965&lt;/li&gt;
+  &lt;li&gt;The Argentine Ant 1952&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I bought &lt;cite&gt;The Watcher&lt;/cite&gt; so I could read &lt;cite&gt;The Argentine Ant&lt;/cite&gt; as I’m trying to go through Calvino in chronological order.  The easiest way to get it was to buy it with The Watcher. I read these short stories in publish order and not the order they were presented in the book.&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;The Argentine Ant&lt;/cite&gt; wasn’t a fun romp for me as we recently had a large ant problem at the house, it felt a bit too realistic.  The story itself felt quite dark until the very end when the perspective is shifted.&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;The Watcher&lt;/cite&gt; was a quite enjoyable read.  I never would have thought that a story about someone working a polling station could work but it was engaging all the way through.  Whereas the Argentine Ant was about a concept, lots of ants everywhere, and living through it, The Watcher creates a character and we see the world through his eyes.&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;Smog&lt;/cite&gt; was a good balance of descriptions and concept along with well developed characters.  Written two years after &lt;cite&gt;The Watcher&lt;/cite&gt;, it shows a steady progression as a writer.  If I had to pick between the two, The Watcher, I’d say, is better but the writing in &lt;cite&gt;Smog&lt;/cite&gt; itself is better.  I particularly liked the spin that the head of the anti-pollution magazine ran a polluting factory.&lt;/p&gt;
+
+&lt;p&gt;In my youth, I was never a fan of short stories.  I don’t know why, maybe they reminded me of English class.  I am starting to appreciate collection of short stories more.  I have some Borges calling my name on my tsundoku.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Oct 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/the-watcher</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/the-watcher</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>The Jazz Elephants</title>
+        <description>&lt;p&gt;Purchased for $8 at a used book store, I bought this on a lark, something I rarely do.  Usually I try to buy serious and well known authors and don’t often take chances. Reading is serious business! The short synopsis, two elephants escape from the London Zoo and join a jazz band had my curiosity piqued.&lt;/p&gt;
+
+&lt;p&gt;I enjoyed the beginning of the book the most as it was full of possibilities.  What will our elephants get up to?  The story initially divides into two parts, the elephant plot and the Henri plot with then intermingle.  I did find the Henri plot with the bell ringers to be a bore.  I found the Sedge plot that develops near the end of the story, highlighting the foolishness of bureaucracy to be the most entertaining.&lt;/p&gt;
+
+&lt;p&gt;I planned to give this book to a friend that greatly enjoys jazz, but there isn’t much about jazz here.  Just a modern fairy-tale about two talking elephants. It’ll probably end up in a little free library.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 10 Sep 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/jazz-elephants</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/jazz-elephants</guid>
+      </item>
+    
+      <item>
+        <title>Atoll IN50</title>
+        <description>&lt;p&gt;I have been unsatisfied with the sound of my main stereo for a while now. At higher volume levels it sounded fuzzy and harsh. I had some B&amp;amp;W 703s paired with a Rotel A11 Tribute. I wasn’t sure what to upgrade next.  Should I get a better DAC?  Should I change the speakers?  Do I need a different amp?  I suspected the amp was the biggest issue, it seemed to be straining at higher volumes, introducing fuzzy artifacts when listening.  I have a 50w amp paired with speakers that have a recommended power range of 30w-200w.  Maybe more power would solve my problem, chatGPT seemed to think so, although chatGPT is just parroting whatever was posted on the interwebs. As I learnt later, this is a simplistic way of looking at things but it was my starting point.&lt;/p&gt;
+
+&lt;p&gt;I was browsing on the web and saw that the Hegel 190V was being sold for deep discounts.  Regular price $4800 on sale for $3400.  I talked to the finance department (my wife) and was given permission to make such a large purchase.  With girl math I was saving $1400.  She said I could buy it as long as she had permission to lord it over me when she wanted to buy something.  The 190V is a powerhouse at 150W per channel.  However, that is a lot of money to spend on an amp you’ve never previewed.&lt;/p&gt;
+
+&lt;p&gt;The reason for such a steep discount was that the Hegel 190V is discontinued.  The manufacturer cleared their stock in June and may have a new product to even out their lineup before Christmas.  I contacted Brooklyn Audio (Jody) to see if he had any in stock because I prefer to deal with someone local.  I didn’t feel comfortable buying from a dealer in Toronto or Winnipeg and having a 3k parcel left on my porch for the pirates.  Jody could not get the amplifier as the manufacturer had already flushed their inventory. Of course this is not where the story ends. Jody suggested I try out an Atoll IN80 demo unit for a week. Try before you buy.   Atoll is a lesser known amplifier company based out of western France.   The In80 is an 80w per channel amp and I was comparing it to my current 50w Rotel A11.  All Jody said to me when I picked it up was “The Rotel sound is a bit thin” and “This punches above its weight”.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately I did not get a remote when I previewed the amp which made fine tuning the volume a nuisance at times. The first thing I noticed was the increase in power.  I was comparing an 80W amp to a 50W amp but I didn’t move the volume knob higher than 1 out of 10.  Not only did I not increase the volume higher than 1, I also decreased the line out level of my streamer from 2Vrms to 1Vrms.  So I essentially halved the output of my streamer which reduced the overall volume level. I could also choose lower values like 500 mVrms to get the volume even lower.  This allowed me to have a very rudimentary volume control, albeit at fixed levels and forgo the need for a remote during my auditioning.&lt;/p&gt;
+
+&lt;p&gt;First impressions were two fold.  Better stereo presentation and a punchier bass.  The punchier bass can be attributed to the higher wattage, also how the amplifier handles volume peaks.  The better stereo presentation, and clarity were the defining differences between the Rotel and the Atoll.&lt;/p&gt;
+
+&lt;p&gt;I greatly enjoyed the Atoll In80’s sound.  After several days  I switched back to my old amp to make sure it wasn’t a placebo effect/excitement of a new toy.    The difference between the amps was significantly noticeable.  In particular the stereo imaging and clarity.&lt;/p&gt;
+
+&lt;p&gt;Some amplifiers are less transparent than others.  The A11 was designed by Ken Ishiwata and it was designed with less prominent stereo/channel separation.  My guess is that crosstalk between the two channels either happens intentionally through design or is a side effect of design constraints.  Some people prefer this sound and consider it warmer.&lt;/p&gt;
+
+&lt;p&gt;The Atoll In80 has amazing channel separation due to its design. This means thats all the stereo tricks like parallel chorus guitars in each speaker stand out like the original recording.  Essentially creating a transparent sound as close to the original recording is the goal.  In their more higher power amps they even use a dual toroid configuration, one for each channel.  At higher wattages it might be harder to prevent crosstalk, hence complete separation using two power supplies.  These are just my theories, I’m no electrical engineer.  All I know is that the amps sound different and I prefer the Atoll more.&lt;/p&gt;
+
+&lt;p&gt;After listening to the In80 for a week I was confident I wanted an Atoll amplifier.  The sound was magnificent.  I felt the In80 was a bit too powerful though considering the amount of volume needed before getting to more preferred listening level.  The conundrum was thus: should I get the In50 which would give better volume control at lower levels or get the In80, which I got to demo and was 100% sure would sound good?  The price difference between the two was marginal ($260).  The In80 would be a better choice in case I decide to buy speakers that are harder to drive.   But do I need all that power?  I should probably buy the amp that best matches my current speakers and not worry about future problems.&lt;/p&gt;
+
+&lt;p&gt;So I was very impressed with the Atoll In80 but wasn’t sure if I wanted to get the 50 watt amp or the 80 watt amp.  The In80 opened up the sound with a stereo effect that I haven’t been able to experience for 10 years, when I had a dedicated listening room in an apartment using a set of Paradigms and a Denon amp.  The In80 was so clear compared to the Rotel that I could turn up louder and louder without effecting the sound.  The In80 was a warm blanket of sound, silky smooth.&lt;/p&gt;
+
+&lt;p&gt;For part of my evaluation of the Atoll In80 I invited my friend Mike over to listen to the two amps. He’s a big Government Mule fan so we picked a couple of their songs to compare on both amps.  To my surprise, he preferred the Rotel A11 over the Atoll.  He didn’t like the prominent stereo separation and was used to a stereo mix similar to the A11.  He has a Moon amp at home so I can only assume that the Moon has a stereo presentation to the Rotel, it is what he is accustomed to and what he preferred.  Not only does Mike have a keen ear but a keen eye too.  He noticed my record player wasn’t completely level which can affect the playback and wear.  New fear unlocked.  Is your record player level?&lt;/p&gt;
+
+&lt;p&gt;Getting a new piece of gear is a bit of a manic listening experience.  It’s difficult to listen to an album from beginning to end.  A couple of songs in and your brain asks the question “If this sounds good what will X sound like?”  With the In80 the bass seemed more powerful and the mids (Particular drum toms) popped out of the recording. A good example of this was the drums on Seven by Sunny Day Real Estate.&lt;/p&gt;
+
+&lt;p&gt;I had the In80 for a couple of weeks, and a manic couple of listening weeks I did have.  I say manic because I couldn’t sit down and listen to a full album, I popped around to different things continuously.  I’ve listened to Metallica into the ground and not really into them anymore but when I put on Fight Fire with Fire it was absolutely stunning.  To test the stereo separation I put on Under the Pressure by War on Drugs and it performed impeccably.  The Microphones album The Glow opened up like I’d never heard before.  But what does Duran Duran sound like, I need to hear Playing With Uranium and Hallucinating Elvis, but what about their older stuff, what does Faster Than Light sound like?  Oh I should put on some New Order and The Smiths.  Which led me to The Cure, Play for Today off Seventeen Seconds was serene.  It was one of my tests songs when switching between the amps.  But I should test the bass, what can I listen to test the bass?  Ah The XX, and some Billie Eilish the first Lorde album and some Depeche Mode.  What about older recordings?  The album Elvis is Back is amazing, let’s listen to The Ventures.  And it went on and on for a week …&lt;/p&gt;
+
+&lt;p&gt;My review unit was brushed aluminum.  Most amps are in black and aluminum,  I started to get used to the idea of an aluminum amp but ordered a black one to be safe.  All my other gear is black so I’m pretty locked into the black look, but it was interesting to find out that black is considered more important for home theatre where you want the components to go unnoticed in the dark.  This isn’t as important for a stereo setup and audio traditionalists seem to prefer aluminum.&lt;/p&gt;
+
+&lt;p&gt;The Atoll amp is a great value for the money and it is interesting to theorizing how they do it.  It does one thing and it does it well, it amplifies sound.  The Rotel has an option of either A or B speakers.  The Atoll only works with one set of speakers.  This saves on cost.  The Rotel has a small LED display that lets you know what input you have selected and what your volume is at, the Atoll has no LED display just a light indicator and a volume knob.  Less components, saves on cost.  There are no tone controls on the Atoll, which, you guessed it, saves on cost.  The instruction manual is only printed in one language, French, fuck you if you don’t know French.  This saves on cost and probably not French people sticking their nose at you.  Some more research found that another way they save cost is by using the same chassis for multiple components.  So the IN50, IN80, and IN100 all have the same chassis, just the internals are different.  Between the IN50 and IN80 only the power supply was changed.  Atoll also keeps cost down by using the same box for all their components.  Instead of a custom box design per component they have a list of components they produce and check off the component inside from that list, like how McDonalds uses the same wrapper for 4 different burgers and folds it differently depending on the  burger.  All the cost cutting measures help a small company of 15-20 employees compete with the big dogs where it matters, sound quality.&lt;/p&gt;
+
+&lt;p&gt;Pricing.  The base price (Canadian) of the unit with a remote (yes you need to order the remote separately), was $1960 (tax inc) for the IN80 and $1698(tax inc) for the IN50.  That’s not a lot more money for 30 more watts.  Over 50% more power for only $260, but I had the IN80 as my demo unit and it just felt like too much power for my setup.  It felt like putting a 500hp engine in a Honda Civic.&lt;/p&gt;
+
+&lt;p&gt;Final decision. So my dilemma was to buy the unit that I knew sounded good, but was really loud really quick or buy the unit I hadn’t tried that would give me better control at low volume levels.  I decided to get the lower powered IN50.  Less power, better low volume control, and a small savings on the budget.  It seemed the mature decision. I was also able to sell the A11 to a gentleman that has the matching CD player and was excited to pair the two together.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 07 Sep 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/atoll-in-50</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/atoll-in-50</guid>
+      </item>
+    
+      <item>
+        <title>Strong Motion</title>
+        <description>&lt;p&gt;I picked up a used copy of &lt;cite&gt;Strong Motion&lt;/cite&gt; for eight dollars at my local used book store. It had dog-eared pages. Although I buy a substantial number of my books used when I can, dog ears are not something I encounter often.  So it was a shock when I came to my first mutilated page.  My guess is that a former owner was the type to simply use dog-eared book marks as the locations did not seem to mark favourite passages.&lt;/p&gt;
+
+&lt;p&gt;I have several authors that I am doing my best to read their works in chronological order, Jonathan Franzen is not one of them.  I started with &lt;cite&gt;Freedom&lt;/cite&gt;, which I borrowed from a friend, then moved on to &lt;cite&gt;The Corrections&lt;/cite&gt; which is very popular and easy to find a used copy.  So with &lt;cite&gt;Strong Motion&lt;/cite&gt; I unintentionally read some of his works in reverse chronological order.&lt;/p&gt;
+
+&lt;p&gt;I do enjoy Franzen’s characters, they feel very well developed.  In all three of his works that I’ve read the quality of his characters was pretty much on par.  It’s been a while now since I’ve read his later works but my lasting impression is that the plot in his later novels is a bit more complex.  More interrelation between the characters, and maybe more social commentary through character thoughts.&lt;/p&gt;
+
+&lt;p&gt;The longer I read &lt;cite&gt;Strong Motion&lt;/cite&gt; the faster I started reading it, until unfortunately, there was no more.  I look forward to picking up some more of his novels.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 16 Aug 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/strong-motion</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/strong-motion</guid>
+      </item>
+    
+      <item>
+        <title>John W. Doull Books</title>
+        <description>&lt;p&gt;A year ago one of the best used book stores for literature in my neck of the woods was essentially going bankrupt.  The proprietor was having a closing sale and retiring.  They sold alot of books, the proprietor still retired, but one of his younger employees took the mantle and carried on the business.&lt;/p&gt;
+
+&lt;p&gt;I have a healthy complement of books in my tsundoku but to celebrate the one year anniversary the new owner had a sale, so I couldn’t resist the comfort of perusing the possibilities on those shelves.  I found a hard cover copy of &lt;cite&gt;Victory City&lt;/cite&gt; for $12.  The sale was 40% off so the sale price was $7.20.  I paid in cash because the former proprietor preferred it that way.  Unfortunately he was low on change so to my benefit I was given the book for $5.&lt;/p&gt;
+
+&lt;p&gt;The new owner is young and pleasant, and probably way more open to electronic transactions than the former owner.  I hope that he succeeds in his business enterprise, and have taken a few moments of my time to publish this info on the web.  Outside of the silos of faceplant and tweeter, so that it can be indexed by the spiders and our AI overlords, in hopes of giving him some more traffic.&lt;/p&gt;
+
+&lt;p&gt;For more info go to: &lt;a href=&quot;https://www.doullbooks.com&quot;&gt;John W. Doull Books&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Jul 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/jwd</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/jwd</guid>
+      </item>
+    
+      <item>
+        <title>Fury</title>
+        <description>&lt;p&gt;After Buckaroo Banzai this was a breath of fresh air.  His previous novel, &lt;cite&gt;The Ground Beneath Her Feet&lt;/cite&gt;, weighing 600 pages, was not very commercially succesful.  So Salman vowed to write shorter books and this is his first kick at the can.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2001, Fury, 259 Pages&lt;/li&gt;
+  &lt;li&gt;2005, Shalimar the Clown, 398 pages&lt;/li&gt;
+  &lt;li&gt;2008, The Enchantress of Florence, 352 pages&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After this book he does increase his page count to the 400 page range.  He must have gotten his mojo back after the defeat of &lt;cite&gt;The Ground Beneath Her Feet&lt;/cite&gt;. This wasn’t an enjoyable read because I didn’t enjoy the protagonist, but it was short enough that I wouldn’t give it an unfavourable review.  It’s definitely a transitional novel in the long career of an author.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 14 Jul 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/fury</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/fury</guid>
+      </item>
+    
+      <item>
+        <title>The Baron in the Trees</title>
+        <description>&lt;p&gt;This is my second time reading this novel.  I first read it over twenty five years.  I picked up a French copy at a used booked store when I was in Europe.  So it’s been a while since I’ve read it.&lt;/p&gt;
+
+&lt;p&gt;This time I had an English copy that I read to my son.  It didn’t always keep his attention rapt but there is one scene in the book where he had a visceral reaction.  After the bandit Gian dei Brughi becomes addicted to books he no longer wants to be a bandit any longer.  Two other bandits blackmail him into doing another dirty deed by stealing a book and ripping pages out of it.  Every time a page was ripped from the book in the story my son screamed in agony.  You would have thought that I was ripping out the last pages in the book that we were reading.  This is why I keep coming back to Italo Calvino novels, he was a master storyteller.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/thebaron</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/thebaron</guid>
+      </item>
+    
+      <item>
+        <title>Buckaroo Banzai Against the World Crime League</title>
+        <description>&lt;p&gt;This is the worse book I’ve ever read, or at least the worse book in a decade.  I am a big fan of the peculiar Buckaroo Banzai movie released in 1984.  It has become a cult classic to many and even teased about a sequel in the end credits that was never made.  When I found out that the sequel came out as a book five years ago I bought a copy.  Only afterwards did I read the reviews on GoodReads that this book was a steaming turd.&lt;/p&gt;
+
+&lt;p&gt;I read it to see how terrible it was and a dumpster fire it is; very flat from a character and plot point, horrible insulting dialog between characters, The Pope asking Buckaroo for help.  But the icing on the cake is that World Crime League isn’t really involved in the book.  There is a World Crime League in the book but it has nothing to do with the main plot.  What seems to have happened here was that a title was choosen 40 years ago, and an attempt was made to write a book to the title.  But the author was incapable of writing an entire book on an idea, so what we have is a collage of half written books put together to cash in on the famous cult status of the movie. It’s a whopping 620 pages too and could have been edited down to a fun 200 page pulp novel.&lt;/p&gt;
+
+&lt;p&gt;When I originally found out about GoodReads what I thought was good about it was that I could do research and read reviews to avoid bad books.  Unfortunately, I bought this on emotion before doing my research.  Lesson learned.  The only silver lining to this is the book I’m reading after seems like a masterpiece now.  I may become gunshy now, sticking to top 100 books of all time lists for a while.&lt;/p&gt;
+
+&lt;p&gt;Life is to short to read bad books.  Don’t read this one.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Jun 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/buckaroo</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/buckaroo</guid>
+      </item>
+    
+      <item>
+        <title>Martian Time-Slip</title>
+        <description>&lt;p&gt;I took this book on vacation with me but didn’t get too far into it as everything was hustle and bustle.  I enjoy reading in quiet, relaxed places, something that can be harder and harder to find these days, but I had an enjoyable vacation and reading a book wasn’t my vacation goal.  I did have a tragic incident by the pool where the book cover got wet and warped a little. Some book piled on book action was needed later to adjust the book.&lt;/p&gt;
+
+&lt;p&gt;So the start of this book was read in a foreign country and then it was finished when I arrived home.  Although this is not my favourite Phillip Dick, I felt that some of the characters were very well formed, especially Kott.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 04 Apr 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/time-slip</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/time-slip</guid>
+      </item>
+    
+      <item>
+        <title>Italian Folktales</title>
+        <description>&lt;p&gt;Two hundred Italian folktales documented by Italo Calvino over the course of 700 pages.  Reviews on goodreads complain about the similarity of some of the stories, and I can see that criticism, but not that many of them were highly similar.  To read a book like this, you need to take your time.  Read a story here and there until you are done.  I would not recommend reading this compendium straight through so that you can say you’ve read it.  I took 10 months to read this book as I enjoyed it at a leisurely pace.&lt;/p&gt;
+
+&lt;p&gt;The fact that Calvino decided to compile these folktales early in his career probably shaped his style significantly.  His first novel “The path to the Spiders’ Nest” is quite dark.  His second, “The Cloven Viscount”, however has a fantastical fairy tale feel to it.&lt;/p&gt;
+
+&lt;p&gt;The beauty of a folktale is the simplicity and brevity.  Characters are either, princesses, kings, princes, merchants, hunchbacks or thieves.  There is no description of facial features or hair colour.  This is the nature of a folktale, to use short descriptions to quickly start a story.  The power of three is also used quite often.  There was a merchant that had three daughters …  There was a king that had three sons …&lt;/p&gt;
+
+&lt;p&gt;Favourite tale: Louse Hide.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Mar 2026 00:00:00 -0300</pubDate>
+        <link>http://www.preenandprune.com/posts/folktales</link>
+        <guid isPermaLink="true">http://www.preenandprune.com/posts/folktales</guid>
+      </item>
+    
   </channel>
 </rss>
